@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Module:Spellbook - CrawlWiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Module","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":828,"wgPageName":"Module:Spellbook","wgTitle":"Spellbook","wgCurRevisionId":56337,"wgRevisionId":56337,"wgArticleId":6713,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"Scribunto","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Module:Spellbook","wgRelevantArticleId":6713,"wgRequestId":"1cb2bb0313345fc4165c8af0","wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.smw.style":"ready","ext.smw.tooltip.styles":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.options@0bhc5ha",function($,jQuery,require,module){mw.user.options.set([]);});mw.loader.implement("user.tokens@014qz08",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/
+
+});mw.loader.load(["site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.smw.style","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=ext.smw.style%7Cext.smw.tooltip.styles&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.30.0"/>
+<link rel="ExportRDF" type="application/rdf+xml" title="Module:Spellbook" href="/index.php?title=Special:ExportRDF/Module:Spellbook&amp;xmlmime=rdf"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="CrawlWiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="http://crawl.chaosforge.org/api.php?action=rsd"/>
+<!--[if lt IE 9]><script src="/resources/lib/html5shiv/html5shiv.min.js?40bd4"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-828 ns-subject page-Module_Spellbook rootpage-Module_Spellbook skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+		<script type="text/javascript">
+		window.google_analytics_uacct = "UA-3380984-8";
+</script>
+<div class="adsense">
+		<script type="text/javascript"><!--
+		google_ad_client = "ca-pub-7088061744296615";
+		/* CrawlWiki skyscraper */
+		google_ad_slot = "8196155564";
+		google_ad_width = 160;
+		google_ad_height = 600;
+-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+			<a id="top"></a>
+
+						<div class="mw-indicators mw-body-content">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">Module:Spellbook</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub" class="noprint">From CrawlWiki</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><p>This module generates the spellbook tables in the pages of the category <a href="/Category:Book" title="Category:Book">Category:Book</a>, and the lists of spells in the <a href="/Book" class="mw-redirect" title="Book">Book</a> page.
+</p><p>Required by: <a href="/Template:Spellbook" title="Template:Spellbook">Template:Spellbook</a> and <a href="/Template:Spellbook2" title="Template:Spellbook2">Template:Spellbook2</a>.
+</p><p>Requires: <a href="/Module:Table_of_spellbooks" title="Module:Table of spellbooks">Module:Table of spellbooks</a> and <a href="/Module:Table_of_spells" title="Module:Table of spells">Module:Table of spells</a>
+</p>
+<hr />
+
+<!-- 
+NewPP limit report
+Cached time: 20220809142017
+Cache expiry: 86400
+Dynamic content: false
+[SMW] In‐text annotation parser time: 0 seconds
+CPU time usage: 0.004 seconds
+Real time usage: 0.006 seconds
+Preprocessor visited node count: 4/1000000
+Preprocessor generated node count: 16/1000000
+Post‐expand include size: 276/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    1.247      1 -total
+100.00%    1.247      1 Module:Spellbook/doc
+-->
+</div><pre class="mw-code mw-script" dir="ltr">
+local p = {}
+
+local book_data = mw.loadData('Module:Table of spellbooks')
+local spell_data = mw.loadData('Module:Table of spells')
+
+local function table_keys_sorted(t, f)
+  local keys = {}
+  for k in pairs(t) do
+    table.insert(keys, k)
+  end
+  table.sort(keys, f)
+  return keys
+end
+
+local function format_schools(frame, schools, no_link_for)
+  local ret = ''
+  for _, school in ipairs(table_keys_sorted(schools)) do
+    if school == no_link_for then
+      ret = ret .. school .. '/'
+    else
+      ret = ret ..
+        frame:expandTemplate{title = 'schoollink', args = {school}} .. '/'
+    end
+  end
+  return ret:sub(1, -2)
+end
+
+local function main_school(book)
+  local schools = {}
+  local num_spells = 0
+  for _,name in pairs(book.spells) do
+    num_spells = num_spells + 1
+    for school in pairs(spell_data[name]['schools']) do
+      if schools[school] == nil then
+        schools[school] = 1
+      else
+        schools[school] = schools[school] + 1
+      end
+    end
+  end
+
+  local found = nil
+  for school,count in pairs(schools) do
+    if count == num_spells then
+      if found ~= nil then return nil end
+      found = school
+    end
+  end
+  if found ~= nil then
+    return found
+  end
+  for school,count in pairs(schools) do
+    if count == num_spells - 1 then
+      if found ~= nil then return nil end
+      found = school
+    end
+  end
+  return found
+end
+
+function p.spellbook_table(frame)
+  local book = frame.args[1]
+  if not book then
+    return ''
+  end
+  book = book:gsub('^Book of', 'book of')
+  local result = [==[{| cellpadding=&quot;5&quot; border=&quot;1&quot;
+|- align=&quot;center&quot;
+! Tile || Spell || Type || Level
+]==]
+  local letters = 'abcdefghijklmnopqrstuvwxyz'
+  for i,name in ipairs(book_data[book].spells) do
+    result = result .. '|-\n| [[File:' .. name:lower() .. '.png]] || ' ..
+       letters:sub(i, i) .. ' - [[' .. name .. ']] || ' ..
+       format_schools(frame, spell_data[name].schools) .. ' || ' ..
+       spell_data[name].level .. '\n'
+  end
+  result = result .. '|}\n'
+  return result
+end
+
+function p.short_spell_list(frame)
+  local book = frame.args[1]
+  if not book then
+    return ''
+  end
+  local school = frame.args[2]
+  if school == '' then school = nil end
+  local result = &quot;'''[[&quot; .. book:gsub('^%l', string.upper) .. &quot;]]''': &quot;
+  local spell_list = {}
+  book = book:gsub('^Book of', 'book of')
+  for _,name in ipairs(book_data[book].spells) do
+    if school == nil or spell_data[name]['schools'][school] then
+      table.insert(spell_list, '[['.. name .. ']]')
+    end
+  end
+  result = result .. table.concat(spell_list, ', ')
+  return result
+end
+
+local function compare_books(a, b)
+  return a:lower():gsub('^book of ', ''):gsub('^a ', ''):gsub('^the ', '') &lt;
+    b:lower():gsub('^book of ', ''):gsub('^a ', ''):gsub('^the ', '')
+end
+
+function p.spell_sources(frame)
+  local school = frame.args[1]
+  local primary_books = frame.args[2]
+
+  local done = {}
+  local ret = ''
+  if primary_books ~= nil and primary_books ~= '' then
+    ret = ret .. ';Main Texts\n'
+    for book in string.gmatch(primary_books, '[^,]+') do
+      ret = ret .. ':' ..
+        frame:expandTemplate{title = 'spellbook2', args = {book, school}} ..
+        '\n'
+      done[book:gsub('^Book of', 'book of')] = true
+    end
+  end
+
+  local found = {}
+  for _,spell in pairs(spell_data) do
+    if spell['schools'][school] then
+      for book in pairs(spell['books']) do
+        if not done[book] and not found[book] then
+          found[book] = true
+        end
+      end
+    end
+  end
+
+  if next(found) ~= nil then
+    ret = ret .. ';Other Texts\n'
+    for _,book in ipairs(table_keys_sorted(found, compare_books)) do
+      ret = ret .. ':' ..
+        frame:expandTemplate{title = 'spellbook2', args = {book, school}} ..
+        '\n'
+    end
+  end
+
+  return ret:sub(1, -2)
+end
+
+function p.spellbook_info(frame)
+  local name = frame.args[1]
+  if not name or name == '' then
+    name = mw.title.getCurrentTitle().text
+  end
+  name = name:gsub('^Book of', 'book of')
+  local book = book_data[name]
+  if not book then
+    return name
+  end
+
+  local args = {}
+  args.name = book.name:gsub('^%l', string.upper)
+
+  local school = main_school(book)
+  if school ~= nil then
+    args.school = school
+  end
+
+  local infobox = frame:expandTemplate{title = 'book', args = args}
+
+  local flavour = book.description
+  if book.quote then
+    flavour = flavour .. '\n----\n' .. book.quote:gsub('\n', '&lt;br&gt;')
+  end
+  flavour = frame:expandTemplate{title = 'flavour', args = {flavour}}
+  return infobox .. '\n' .. flavour
+end
+
+return p
+</pre>
+</div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="http://crawl.chaosforge.org/index.php?title=Module:Spellbook&amp;oldid=56337">http://crawl.chaosforge.org/index.php?title=Module:Spellbook&amp;oldid=56337</a>"					</div>
+				<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=Module%3ASpellbook" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+														<li id="ca-nstab-module" class="selected"><span><a href="/Module:Spellbook">Module</a></span></li>
+							<li id="ca-talk" class="new"><span><a href="/index.php?title=Module_talk:Spellbook&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+														<li id="ca-view" class="selected"><span><a href="/Module:Spellbook">Read</a></span></li>
+							<li id="ca-viewsource"><span><a href="/index.php?title=Module:Spellbook&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+							<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Module:Spellbook&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search CrawlWiki" title="Search CrawlWiki [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/Crawl_Wiki"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="/Crawl_Wiki" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li><li id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Module:Spellbook" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Module:Spellbook" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="/index.php?title=Module:Spellbook&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="/index.php?title=Module:Spellbook&amp;oldid=56337" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/index.php?title=Module:Spellbook&amp;action=info" title="More information about this page">Page information</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last edited on 4 November 2021, at 14:40.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="/CrawlWiki:Privacy_policy" title="CrawlWiki:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/CrawlWiki:About" title="CrawlWiki:About">About CrawlWiki</a></li>
+											<li id="footer-places-disclaimer"><a href="/CrawlWiki:General_disclaimer" title="CrawlWiki:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/"><img src="/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a><a href="https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki"><img src="/extensions/SemanticMediaWiki/includes/../res/images/smw_button.png" alt="Powered by Semantic MediaWiki" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"smw":{"limitreport-intext-parsertime":0},"limitreport":{"cputime":"0.004","walltime":"0.006","ppvisitednodes":{"value":4,"limit":1000000},"ppgeneratednodes":{"value":16,"limit":1000000},"postexpandincludesize":{"value":276,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":2,"limit":40},"expensivefunctioncount":{"value":0,"limit":100},"timingprofile":["100.00%    1.247      1 -total","100.00%    1.247      1 Module:Spellbook/doc"]},"cachereport":{"timestamp":"20220809142017","ttl":86400,"transientcontent":false}}});});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":145});});</script>
+	</body>
+</html>

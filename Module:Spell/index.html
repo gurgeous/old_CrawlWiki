@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Module:Spell - CrawlWiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Module","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":828,"wgPageName":"Module:Spell","wgTitle":"Spell","wgCurRevisionId":50758,"wgRevisionId":50758,"wgArticleId":8759,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"Scribunto","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Module:Spell","wgRelevantArticleId":8759,"wgRequestId":"1e0c4f98cf3adb279e689c8a","wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.smw.style":"ready","ext.smw.tooltip.styles":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.options@0bhc5ha",function($,jQuery,require,module){mw.user.options.set([]);});mw.loader.implement("user.tokens@014qz08",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/
+
+});mw.loader.load(["site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.smw.style","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=ext.smw.style%7Cext.smw.tooltip.styles&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.30.0"/>
+<link rel="ExportRDF" type="application/rdf+xml" title="Module:Spell" href="/index.php?title=Special:ExportRDF/Module:Spell&amp;xmlmime=rdf"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="CrawlWiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="http://crawl.chaosforge.org/api.php?action=rsd"/>
+<!--[if lt IE 9]><script src="/resources/lib/html5shiv/html5shiv.min.js?40bd4"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-828 ns-subject page-Module_Spell rootpage-Module_Spell skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+		<script type="text/javascript">
+		window.google_analytics_uacct = "UA-3380984-8";
+</script>
+<div class="adsense">
+		<script type="text/javascript"><!--
+		google_ad_client = "ca-pub-7088061744296615";
+		/* CrawlWiki skyscraper */
+		google_ad_slot = "8196155564";
+		google_ad_width = 160;
+		google_ad_height = 600;
+-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+			<a id="top"></a>
+
+						<div class="mw-indicators mw-body-content">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">Module:Spell</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub" class="noprint">From CrawlWiki</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><p>This module generates the spell tables.
+</p><p>Requires: <a href="/Module:Table_of_spells" title="Module:Table of spells">Module:Table of spells</a>
+</p>
+<hr />
+
+<!-- 
+NewPP limit report
+Cached time: 20191225201823
+Cache expiry: 86400
+Dynamic content: false
+[SMW] In‐text annotation parser time: 0 seconds
+CPU time usage: 0.008 seconds
+Real time usage: 0.006 seconds
+Preprocessor visited node count: 4/1000000
+Preprocessor generated node count: 16/1000000
+Post‐expand include size: 77/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    1.241      1 -total
+100.00%    1.241      1 Module:Spell/doc
+-->
+</div><pre class="mw-code mw-script" dir="ltr">
+local p = {}
+local data = mw.loadData('Module: Table of spells')
+local RANGE_LOS = 7
+
+local function table_keys_sorted(t, f)
+  local keys = {}
+  for k in pairs(t) do
+    table.insert(keys, k)
+  end
+  table.sort(keys, f)
+  return keys
+end
+
+local function empty_table(t)
+  for _ in pairs(t) do
+    return false
+  end
+  return true
+end
+
+local function names_by_level()
+  local names = table_keys_sorted(data)
+  table.sort(names, function(a, b)
+    if data[a].level == data[b].level then
+      return a &lt; b
+    else
+      return data[a].level &lt; data[b].level
+    end
+  end)
+  return names
+end
+
+local function spell_table_header()
+  return [=[{| class=&quot;prettytable&quot;
+!|Icon
+!|Name
+!|Schools
+!|Level
+!|Power&lt;br&gt;cap
+!|Range
+!|Noise
+!|Flags
+!|Books
+|----
+]=]
+end
+
+local function spell_table_section(heading)
+  return '! colspan=9 style=&quot;text-align:left&quot;|\n' ..
+         '====' .. heading .. '====\n' ..
+         '|----\n'
+end
+
+local function format_schools(frame, schools, no_link_for)
+  local ret = ''
+  for _, school in ipairs(table_keys_sorted(schools)) do
+    if school == no_link_for then
+      ret = ret .. school .. '/'
+    else
+      ret = ret ..
+        frame:expandTemplate{title = 'schoollink', args = {school}} .. '/'
+    end
+  end
+  return ret:sub(1, -2)
+end
+
+local function format_range(range)
+  if range == nil then
+    return ''
+  elseif range.min == range.max then
+    if range.min == RANGE_LOS then
+      return 'LOS'
+    else
+      return range.min
+    end
+  else
+    return range.min .. '-' .. range.max
+  end
+end
+
+local function format_noise(noise)
+  if noise == nil then
+    return ''
+  else
+    return math.max(noise.casting, noise.effect)
+  end
+end
+
+local function format_flag(flag)
+  if flag == 'MR_CHECK' then
+    return 'MR check'
+  else
+    return flag:gsub('_', ' '):lower():gsub('^%l', string.upper)
+  end
+end
+
+local function format_flags(flags, ignored)
+  if flags == nil then
+    return ''
+  end
+  local ret = ''
+  for _, flag in ipairs(table_keys_sorted(flags)) do
+    if not ignored or not ignored[flag] then
+      ret = ret .. format_flag(flag) .. ', '
+    end
+  end
+  return ret:sub(1, -3)
+end
+
+local function compare_books(a, b)
+  return a:lower():gsub('^book of ', ''):gsub('^a ', ''):gsub('^the ', '') &lt;
+    b:lower():gsub('^book of ', ''):gsub('^a ', ''):gsub('^the ', '')
+end
+
+local function format_books(books)
+  local ret = ''
+  for _, book in ipairs(table_keys_sorted(books, compare_books)) do
+    ret = ret .. '[[' .. book:gsub('^%l', string.upper) .. ']]&lt;br&gt;'
+  end
+  return ret:sub(1, -5)
+end
+
+local function spell_table_line(frame, name, info, no_link_for)
+  return '|[[File:' .. name:lower() .. '.png]]\n' ..
+         '|style=&quot;padding-left:1em&quot;|[[' .. name .. ']]\n' ..
+         '|' .. format_schools(frame, info['schools'], no_link_for) .. '\n' ..
+         '|' .. info['level'] .. '\n' ..
+         '|' .. (info['power cap'] == 0 and 'N/A' or info['power cap']) ..
+         '\n' ..
+         '|' .. format_range(info['range']) .. '\n' ..
+         '|' .. format_noise(info['noise']) .. '\n' ..
+         '|' .. format_flags(info['flags']) .. '\n' ..
+         '|' .. format_books(info['books']) .. '\n' ..
+         '|----\n'
+end
+
+function p.spell_table(frame)
+  local alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+
+  local ret = '==Spells==\n' .. spell_table_header()
+  local c = nil
+  for _, name in ipairs(table_keys_sorted(data)) do
+    if name:sub(1, 1) ~= c then
+      c = name:sub(1, 1)
+      ret = ret .. spell_table_section(c)
+    end
+    ret = ret .. spell_table_line(frame, name, data[name])
+  end
+  return ret .. '|}'
+end
+
+function p.spell_table_by_level(frame)
+  local school = frame.args[1]
+  if school == '' then
+    school = nil
+  end
+  local ret = '==Spells==\n' .. spell_table_header()
+  for level=1,9 do
+    local found = false
+    for _, name in ipairs(table_keys_sorted(data)) do
+      if data[name]['level'] == level then
+        if school == nil or data[name]['schools'][school] then
+          if not found then
+            found = true
+            ret = ret .. spell_table_section('Level ' .. level)
+          end
+          ret = ret .. spell_table_line(frame, name, data[name], school)
+        end
+      end
+    end
+  end
+  return ret .. '|}'
+end
+
+function p.spell_table_by_school(frame)
+  local schools = {}
+  for _,spell in pairs(data) do
+    for school in pairs(spell['schools']) do
+      schools[school] = true
+    end
+  end
+
+  local ret = '==Spells==\n' .. spell_table_header()
+  for _,school in ipairs(table_keys_sorted(schools)) do
+    ret = ret .. spell_table_section(
+      frame:expandTemplate{title = 'schoollink', args = {school}})
+    for _, name in ipairs(names_by_level(data)) do
+      if data[name]['schools'][school] then
+        ret = ret .. spell_table_line(frame, name, data[name], school)
+      end
+    end
+  end
+  return ret .. '|}'
+end
+
+function p.spell_table_by_book(frame)
+  local books = {}
+  for _,spell in pairs(data) do if spell['books'] ~= nil then
+    for book in pairs(spell['books']) do
+      books[book] = true
+    end
+  end end
+
+  local ret = '==Spells==\n' .. spell_table_header()
+  for _,book in ipairs(table_keys_sorted(books, compare_books)) do
+    ret = ret ..
+      spell_table_section('[[' .. book:gsub('^%l', string.upper) .. ']]')
+    for _, name in ipairs(names_by_level(data)) do
+      if data[name]['books'][book] then
+        ret = ret .. spell_table_line(frame, name, data[name])
+      end
+    end
+  end
+  return ret .. '|}'
+end
+
+function p.spell_table_by_flag(frame)
+  local flags = {}
+  for _,spell in pairs(data) do if spell['flags'] ~= nil then
+    for flag,_ in pairs(spell['flags']) do
+      flags[flag] = true
+    end
+  end end
+
+  local ret = '==Spells==\n' .. spell_table_header()
+
+  ret = ret .. spell_table_section('No flags')
+  for _, name in ipairs(names_by_level(data)) do
+    if empty_table(data[name]['flags']) then
+      ret = ret .. spell_table_line(frame, name, data[name])
+    end
+  end
+
+  for _, flag in ipairs(table_keys_sorted(flags)) do
+    ret = ret .. spell_table_section(format_flag(flag)) ..
+      '| colspan=9 |' ..
+      frame:expandTemplate{title = 'SpellFlagDesc ' .. format_flag(flag),
+        args = {}} ..
+      '\n|----\n'
+    for _, name in ipairs(names_by_level(data)) do
+      if data[name]['flags'][flag] then
+        ret = ret .. spell_table_line(frame, name, data[name])
+      end
+    end
+  end
+  return ret .. '|}'
+end
+
+local function format_hated_by(spell)
+  local output = ''
+  if spell.flags.HASTY then
+    output = output .. '[[Cheibriados]][[Category:Hasty Spells]]&lt;br&gt;'
+  end
+  if spell.flags.CORPSE_VIOLATING then
+    output = output .. '[[Fedhas]][[Category:Corpse Violating Spells]]&lt;br&gt;'
+  end
+  if spell.flags.UNHOLY or spell.schools.Necromancy then
+    output = output .. '[[Elyvilon]]&lt;br&gt;'
+  end
+  if spell.flags.UNHOLY or spell.schools.Necromancy then
+    output = output .. '[[The Shining One]]&lt;br&gt;'
+  end
+  if spell.name == 'Statue Form' then
+    output = output .. '[[Yredelemnul]]&lt;br&gt;'
+  end
+  if spell.flags.CHAOTIC or spell.flags.UNCLEAN or spell.flags.UNHOLY or
+    spell.schools.Necromancy then
+    output = output .. '[[Zin]]'
+    if spell.flags.UNCLEAN then
+      output = output .. '[[Category:Unclean Spells]]'
+    end
+    if spell.flags.CHAOTIC then
+      output = output .. '[[Category:Chaotic Spells]]'
+    end
+    if spell.flags.UNHOLY then
+      output = output .. '[[Category:Evil Spells]]'
+    end
+    output = output .. '&lt;br&gt;'
+  end
+  return output:sub(1, -5)
+end
+
+local function format_targetting(flags)
+  local style = nil
+  if flags.DIR then
+    style = 'Direction'
+  elseif flags.DIR_OR_TARGET then
+    style = 'Target or direction'
+  elseif flags.TARGET then
+    style = 'Smite'
+  end
+  if style then
+    if flags.OBJ and flags.NOT_SELF then
+      return style .. ' (object, not self)'
+    elseif flags.OBJ then
+      return style .. ' (object)'
+    elseif flags.NOT_SELF then
+      return style .. ' (not self)'
+    end
+  end
+  return style
+end
+
+function p.spell_info(frame)
+  local name = frame.args[1]
+  if not name or name == '' then
+    name = mw.title.getCurrentTitle().text
+  end
+  local spell = data[name]
+  if not spell then
+    return name
+  end
+
+  local args = {}
+  args.name = spell.name
+  args.level = spell.level
+  for i,school in ipairs(table_keys_sorted(spell.schools)) do
+    args['school' .. i] =
+      frame:expandTemplate{title = 'schoollink', args = {school}} ..
+      '[[Category:' .. school .. ' Spells]]'
+    i = i + 1
+  end
+  args.sources = format_books(spell.books)
+  args.castingnoise = spell.noise.casting
+  args.spellnoise = spell.noise.effect
+  args['power cap'] = spell['power cap'] == 0 and 'N/A' or spell['power cap']
+  args['summons limit'] = spell['summons limit']
+  args.targetting = format_targetting(spell.flags)
+  args.range = format_range(spell.range)
+  args.rarity = spell.rarity
+  args['hated by'] = format_hated_by(spell)
+  args.flags = format_flags(spell.flags, {
+    CHAOTIC = true,
+    CORPSE_VIOLATING = true,
+    DIR = true,
+    DIR_OR_TARGET = true,
+    HASTY = true,
+    MONS_ABJURE = true,
+    NEEDS_TRACER = true,
+    NOT_SELF = true,
+    OBJ = true,
+    TARGET = true,
+    UNCLEAN = true,
+    UNHOLY = true,
+  })
+
+  local infobox = frame:expandTemplate{title = 'spell', args = args}
+
+  local flavour = spell.description
+  if spell.quote then
+    flavour = flavour .. '\n----\n' .. spell.quote:gsub('\n', '&lt;br&gt;')
+  end
+  flavour = frame:expandTemplate{title = 'flavour', args = {flavour}}
+  return infobox .. '\n' .. flavour
+end
+
+return p
+</pre>
+</div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="http://crawl.chaosforge.org/index.php?title=Module:Spell&amp;oldid=50758">http://crawl.chaosforge.org/index.php?title=Module:Spell&amp;oldid=50758</a>"					</div>
+				<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=Module%3ASpell" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+														<li id="ca-nstab-module" class="selected"><span><a href="/Module:Spell">Module</a></span></li>
+							<li id="ca-talk" class="new"><span><a href="/index.php?title=Module_talk:Spell&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+														<li id="ca-view" class="selected"><span><a href="/Module:Spell">Read</a></span></li>
+							<li id="ca-viewsource"><span><a href="/index.php?title=Module:Spell&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+							<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Module:Spell&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search CrawlWiki" title="Search CrawlWiki [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/Crawl_Wiki"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="/Crawl_Wiki" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li><li id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Module:Spell" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Module:Spell" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="/index.php?title=Module:Spell&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="/index.php?title=Module:Spell&amp;oldid=50758" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/index.php?title=Module:Spell&amp;action=info" title="More information about this page">Page information</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last edited on 13 August 2019, at 19:20.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="/CrawlWiki:Privacy_policy" title="CrawlWiki:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/CrawlWiki:About" title="CrawlWiki:About">About CrawlWiki</a></li>
+											<li id="footer-places-disclaimer"><a href="/CrawlWiki:General_disclaimer" title="CrawlWiki:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/"><img src="/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a><a href="https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki"><img src="/extensions/SemanticMediaWiki/includes/../res/images/smw_button.png" alt="Powered by Semantic MediaWiki" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"smw":{"limitreport-intext-parsertime":0},"limitreport":{"cputime":"0.008","walltime":"0.006","ppvisitednodes":{"value":4,"limit":1000000},"ppgeneratednodes":{"value":16,"limit":1000000},"postexpandincludesize":{"value":77,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":2,"limit":40},"expensivefunctioncount":{"value":0,"limit":100},"timingprofile":["100.00%    1.241      1 -total","100.00%    1.241      1 Module:Spell/doc"]},"cachereport":{"timestamp":"20191225201823","ttl":86400,"transientcontent":false}}});});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":177});});</script>
+	</body>
+</html>

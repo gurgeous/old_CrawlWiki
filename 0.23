@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>0.23 - CrawlWiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"0.23","wgTitle":"0.23","wgCurRevisionId":51691,"wgRevisionId":51691,"wgArticleId":9900,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Crawl Versions"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"0.23","wgRelevantArticleId":9900,"wgRequestId":"f832e829ceb3149e8de743d6","wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.smw.style":"ready","ext.smw.tooltip.styles":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.options@0bhc5ha",function($,jQuery,require,module){mw.user.options.set([]);});mw.loader.implement("user.tokens@014qz08",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/
+
+});mw.loader.load(["ext.smw.style","ext.smw.tooltips","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=ext.smw.style%7Cext.smw.tooltip.styles&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.30.0"/>
+<link rel="ExportRDF" type="application/rdf+xml" title="0.23" href="/index.php?title=Special:ExportRDF/0.23&amp;xmlmime=rdf"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="CrawlWiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="http://crawl.chaosforge.org/api.php?action=rsd"/>
+<!--[if lt IE 9]><script src="/resources/lib/html5shiv/html5shiv.min.js?40bd4"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-0_23 rootpage-0_23 skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+		<script type="text/javascript">
+		window.google_analytics_uacct = "UA-3380984-8";
+</script>
+<div class="adsense">
+		<script type="text/javascript"><!--
+		google_ad_client = "ca-pub-7088061744296615";
+		/* CrawlWiki skyscraper */
+		google_ad_slot = "8196155564";
+		google_ad_width = 160;
+		google_ad_height = 600;
+-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+			<a id="top"></a>
+
+						<div class="mw-indicators mw-body-content">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">0.23</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub" class="noprint">From CrawlWiki</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div style="border: 1px solid #bb0; background-color: #ff0; border-left: 15px solid #bb0; margin-bottom: 20px; width: 100%; padding: 4px 10px; line-height: 1.25em; width: auto;"><i>This article is about a previous release of <a href="/Crawl" class="mw-redirect" title="Crawl">Crawl</a>. For information about other versions of Crawl, including the newest, see <a href="/List_of_Stone_Soup_versions" title="List of Stone Soup versions">List of Stone Soup versions</a>.</i></div>
+<p><br />
+<b>0.23</b> is a version of <i>Dungeon Crawl Stone Soup</i> released on February 7th, 2019.
+</p>
+<div id="toc" class="toc"><div class="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Highlights"><span class="tocnumber">1</span> <span class="toctext">Highlights</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Branches.2C_Environment"><span class="tocnumber">2</span> <span class="toctext">Branches, Environment</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Character"><span class="tocnumber">3</span> <span class="toctext">Character</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Gods"><span class="tocnumber">4</span> <span class="toctext">Gods</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Interface"><span class="tocnumber">5</span> <span class="toctext">Interface</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Items"><span class="tocnumber">6</span> <span class="toctext">Items</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Lua"><span class="tocnumber">7</span> <span class="toctext">Lua</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Monsters"><span class="tocnumber">8</span> <span class="toctext">Monsters</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Spells"><span class="tocnumber">9</span> <span class="toctext">Spells</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#0.23.1"><span class="tocnumber">10</span> <span class="toctext">0.23.1</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Highlights">Highlights</span></h2>
+<ul><li> <a href="/Trap" title="Trap">Trap</a> system overhaul</li>
+<li> New <a href="/Gauntlet" title="Gauntlet">Gauntlet</a> portal to replace Labyrinths</li>
+<li> <a href="/Nemelex_Xobeh" title="Nemelex Xobeh">Nemelex Xobeh</a> rework</li>
+<li> Nine <a href="/Unrandart" class="mw-redirect" title="Unrandart">unrandarts</a> reworked and the new "<a href="/Rift" title="Rift">Rift</a>" unrandart added</li>
+<li> Support for <a href="/Seed" title="Seed">seeded</a> dungeon play</li></ul>
+<h2><span class="mw-headline" id="Branches.2C_Environment">Branches, Environment</span></h2>
+<ul><li> <a href="/Trap" title="Trap">Traps</a> have been overhauled:
+<ul><li> Traps that generate on the ground are always revealed.</li>
+<li> Exploration has a chance to trigger a "trap effect" independent from terrain traps. The possible effects are <a href="/Alarm_trap" title="Alarm trap">alarm</a>, <a href="/Shaft" title="Shaft">shaft</a>, and <a href="/Teleport_trap" title="Teleport trap">teleport</a> near monsters.</li>
+<li> Monsters only trigger traps in sight of the player.</li>
+<li> Alarm traps now always Mark the player whenever they are triggered in LOS.</li>
+<li> <a href="/Net_trap" title="Net trap">Net traps</a> now try to net the player whenever they are triggered in LOS.</li>
+<li> New trap: <a href="/Dispersal_trap" title="Dispersal trap">dispersal trap</a>. When triggered, every actor in sight of the trap is blinked.</li>
+<li> Trap placement in Ossuaries, Zot:5, and Tomb has been overhauled. In Zot:5 and Tomb, all mechanical traps save for net traps have been removed.</li>
+<li> Grate traps (triggered by <a href="/Pressure_plate" title="Pressure plate">pressure plates</a>) have been removed.</li></ul></li>
+<li> A new <a href="/Gauntlet" title="Gauntlet">Gauntlet</a> portal that replaces <a href="/Labyrinth" title="Labyrinth">Labyrinths</a>:
+<ul><li> Gauntlets have the player choose a path through several combat arenas, each of which contains (sometimes exotic) monsters and loot.</li>
+<li> Access to each arena is one-way using <a href="/Transporter" title="Transporter">transporters</a>. Teleports and the <a href="/Passage_of_Golubria" title="Passage of Golubria">Passage of Golubria</a> spell are disabled.</li>
+<li> All paths lead to the <a href="/Minotaur" title="Minotaur">minotaur</a> who guards the exit and a pile of treasure.</li>
+<li> Gauntlets are found where Labyrinths previously generated.</li></ul></li>
+<li> Support for seeded play:
+<ul><li> A new option for pregenerating the entire connected dungeon based on a fixed seed has been added. This takes a bit of time, but ensures that any playthroughs of a particular seed will use the same dungeon.</li>
+<li> This option is not yet available for online play, but can be used offline. See the manual section "Seeded play" for details.</li>
+<li> The dungeon RNG has been separated from the gameplay RNG to allow this feature to work.</li>
+<li> Each game seed generates a unique dungeon (including layout and monster and item placement) that is always the same for the same version of Crawl, as long as levels are generated in the same order.</li>
+<li> If you see that two games with the same seed generate a different dungeon, please report this as a bug!</li></ul></li>
+<li> New early <a href="/Vault" title="Vault">vaults</a> featuring thematic item shops and monsters guarding manuals, as well as new ghost vaults for many branches.</li>
+<li> Two new dungeon layouts enabled, one for Dungeon and one for Lair.</li>
+<li> Translucent doors that can be seen through when closed have been added and are now used in some Elf layouts and some vaults, including most <a href="/Runed_door" class="mw-redirect" title="Runed door">runed door</a> vaults.</li></ul>
+<h2><span class="mw-headline" id="Character">Character</span></h2>
+<ul><li> The player can no longer be put to sleep when <a href="/Paralyse" title="Paralyse">paralysed</a> or <a href="/Petrify" title="Petrify">petrified</a>.</li>
+<li> Tengu Permanent Flight becomes immediately available at XL 5.</li>
+<li> <a href="/Tengu" title="Tengu">Tengu</a> EV bonuses are no longer applied to +EV from equipment.</li>
+<li> <a href="/Wanderer" title="Wanderer">Wanderer</a> starting <a href="/index.php?title=Spell_library&amp;action=edit&amp;redlink=1" class="new" title="Spell library (page does not exist)">spell libraries</a> are announced along with equipment.</li>
+<li> Wanderers that start with exactly one level 1 spell start with it memorized.</li></ul>
+<h2><span class="mw-headline" id="Gods">Gods</span></h2>
+<ul><li> <a href="/Nemelex_Xobeh" title="Nemelex Xobeh">Nemelex Xobeh</a> has been reworked:
+<ul><li> Decks are accessed through abilities and no longer exist as items.</li>
+<li> Nemelex offers three abilities: "Draw Escape", "Draw Destruction", and "Draw Summoning", which provide card effects.</li>
+<li> The deck abilities do not have rarities; card power levels are determined by invocations and piety alone.</li>
+<li> Nemelex periodically adds cards to the three abstract decks.</li>
+<li> Triple Draw works on the three decks as before, offering a choice of three cards. The piety cost is increased.</li>
+<li> Deal Four deals four cards from a deck and has a reduced piety cost.</li>
+<li> Stack Five constructs a player-ordered stack of five cards drawn from any of the three decks to be drawn later. Creating a new stack discards the old. The piety cost is the same as old stack five.</li>
+<li> The <a href="/Velocity_card" title="Velocity card">Velocity card</a> no longer hastes enemies, instead always slowing them with a chance proportional to power.</li>
+<li> The <a href="/Storm_card" title="Storm card">Storm card</a> has been revised. It now performs a wind blast followed by one to nine electrical explosions.</li></ul></li>
+<li> <a href="/Elyvilon" title="Elyvilon">Elyvilon</a>'s Heal Other is adjusted:
+<ul><li> The formula depends only on monster type, not specific monster max HP.</li>
+<li> <a href="/Player_ghost" title="Player ghost">Player ghosts</a> and <a href="/Pandemonium_lord" title="Pandemonium lord">Pandemonium lords</a> are now immune.</li>
+<li> The targeter displays the pacification chance.</li></ul></li>
+<li> <a href="/Ashenzari" title="Ashenzari">Ashenzari</a> protects followers from exploration based trap effects.</li>
+<li> <a href="/Qazlal" class="mw-redirect" title="Qazlal">Qazlal</a>'s cloud immunity is extended to elementals created with Elemental Force.</li>
+<li> <a href="/Fedhas" class="mw-redirect" title="Fedhas">Fedhas</a>' protection of plants from player spells is extended to LOS-wide attack spells.</li>
+<li> The acid damage from <a href="/Makhleb" title="Makhleb">Makhleb</a>'s Minor Destruction has been reduced.</li>
+<li> Exploration-based piety is no longer granted for the <a href="/Temple" class="mw-redirect" title="Temple">Temple</a>, deep <a href="/Water" title="Water">water</a>, or <a href="/Lava" title="Lava">lava</a>.</li>
+<li> Monster conversion for <a href="/Beogh" title="Beogh">Beogh</a>, <a href="/Gozag" class="mw-redirect" title="Gozag">Gozag</a>'s Bribe Branch, and <a href="/Jiyva" title="Jiyva">Jiyva</a> is attempted upon sight instead of on the turn after the monster enters LOS.</li></ul>
+<h2><span class="mw-headline" id="Interface">Interface</span></h2>
+<ul><li> Spell damage message punctuation has been adjusted to reflect damage done using the same scale as melee damage.</li>
+<li> Damage brand message punctuation has been similarly adjusted.</li>
+<li> <a href="/Monster" title="Monster">Monster</a> descriptions in '<a href="/X" title="X">xv</a>' display spell ranges.</li>
+<li> The Religion screen '<a href="/%5E" title="^">^</a>' gains a fourth pane for gods that need Extra information:
+<ul><li> <a href="/Ashenzari" title="Ashenzari">Ashenzari</a> displays information about bondage status.</li>
+<li> <a href="/Beogh" title="Beogh">Beogh</a> displays a list of named followers, with gifts.</li>
+<li> <a href="/Gozag" class="mw-redirect" title="Gozag">Gozag</a> displays bribe information.</li>
+<li> <a href="/Hepliaklqana" title="Hepliaklqana">Hepliaklqana</a> displays ancestor upgrades.</li>
+<li> <a href="/Nemelex_Xobeh" title="Nemelex Xobeh">Nemelex Xobeh</a> displays deck information.</li>
+<li> <a href="/Wu_Jian" title="Wu Jian">Wu Jian</a> displays information about martial attacks.</li></ul></li>
+<li> The <a href="/Hepliaklqana" title="Hepliaklqana">Hepliaklqana</a> ancestor reaching full health interrupts resting. The exact behavior of this interrupt can be configured by rest_wait_ancestor.</li>
+<li> The new display_chars cloud_weak, cloud_fading, and cloud_terminal indicate remaining cloud duration in console.</li>
+<li> <a href="/WebTiles" title="WebTiles">WebTiles</a> users can use a "Forgot Password" link to reset their password via a link sent to their registration email address. This feature is not yet enabled on most official servers.</li></ul>
+<h2><span class="mw-headline" id="Items">Items</span></h2>
+<ul><li> <a href="/Unrandart" class="mw-redirect" title="Unrandart">Unrandart</a> changes:
+<ul><li> New Unrand: the +8 demon trident "<a href="/Rift" title="Rift">Rift</a>" {distort, reach+}. A <a href="/Distortion" title="Distortion">distortion</a> <a href="/Demon_trident" title="Demon trident">demon trident</a> with a reaching range of 3 and smite targeted attack.</li>
+<li> The <a href="/Singing_Sword" title="Singing Sword">Singing Sword</a>'s sonic damage effect is stronger, can trigger at low tension, and triggers only on-hit. It also gains the vorpal brand.</li>
+<li> The <a href="/Spriggan%27s_Knife" title="Spriggan&#39;s Knife">Spriggan's Knife</a> converts all stabs to sleep-tier stabs and loses Dex+4 and MR+.</li>
+<li> The <a href="/Robe_of_Misfortune" title="Robe of Misfortune">robe of Misfortune</a> is +5 {*Contam *Corrode *Drain Harm *Slow EV+5} and is now always identified.</li>
+<li> The <a href="/Sceptre_of_Torment" title="Sceptre of Torment">sceptre of Torment</a> is now a +7 eveningstar of pain, and its torment does not affect the wielder.</li>
+<li> The <a href="/Arc_blade" class="mw-redirect" title="Arc blade">arc blade</a>'s effect now casts static discharge only once, but at very high spellpower. The weapon's enchantment is now +8.</li>
+<li> <a href="/Finisher" title="Finisher">Finisher</a> loses Str+3 and gains a chance to instant-explode the target.</li>
+<li> The <a href="/Robe_of_Clouds" title="Robe of Clouds">robe of Clouds</a> is now +3 {+Thunder rCloud rElec}, providing evocable storm clouds in place of its old mist.</li>
+<li> The <a href="/Storm_bow" title="Storm bow">storm bow</a> no longer occasionally creates rain clouds.</li>
+<li> The <a href="/Skin_of_Zhor" title="Skin of Zhor">skin of Zhor</a> gains SInv and a passive Metabolic Englaciation effect.</li>
+<li> Unrandarts with melee effects that could anger nearby allies give a proper warning.</li></ul></li>
+<li> <a href="/Wand" title="Wand">Wand</a> charges for wands of <a href="/Wand_of_digging" title="Wand of digging">digging</a>, <a href="/Wand_of_enslavement" title="Wand of enslavement">enslavement</a>, <a href="/Wand_of_flame" title="Wand of flame">flame</a>, <a href="/Wand_of_paralysis" title="Wand of paralysis">paralysis</a>, <a href="/Wand_of_polymorph" title="Wand of polymorph">polymorph</a>, and <a href="/Wand_of_random_effects" title="Wand of random effects">random effects</a> have been reduced.</li>
+<li> <a href="/Butchering" class="mw-redirect" title="Butchering">Butchering</a> a <a href="/Corpse" title="Corpse">corpse</a> always leaves a skeleton.</li>
+<li> The <a href="/Blowgun" title="Blowgun">blowgun</a> targeter now displays the chance to affect the target.</li>
+<li> Stash search can now search by handedness.</li></ul>
+<h2><span class="mw-headline" id="Lua">Lua</span></h2>
+<ul><li> The custom `require` used in clua and dlua has been renamed `crawl_require`.</li>
+<li> A new function `spells.path` has been added to the `spells` module to provide access to the targeter from clua.</li></ul>
+<h2><span class="mw-headline" id="Monsters">Monsters</span></h2>
+<ul><li> <a href="/Monster" title="Monster">Monster</a> <a href="/Weapon" title="Weapon">weapons</a>, <a href="/Armour" title="Armour">armour</a>, and <a href="/Wand" title="Wand">wands</a> are <a href="/Identification" title="Identification">identified</a> and revealed to the player when the monster is first seen.</li>
+<li> The <a href="/Shambling_mangrove" title="Shambling mangrove">shambling mangrove</a> <a href="/Grasping_Roots" title="Grasping Roots">Grasping Roots</a> ability now performs smite-targeted <a href="/Constriction" title="Constriction">constriction</a> instead of applying a 'Roots' status.</li>
+<li> <a href="/Jorgrun" title="Jorgrun">Jorgrun</a> gains the <a href="/Grasping_Roots" title="Grasping Roots">Grasping Roots</a> spell and can now spawn in <a href="/Swamp" class="mw-redirect" title="Swamp">Swamp</a>.</li>
+<li> <a href="/Killer_Klown" title="Killer Klown">Killer Klowns</a> now have a pie throwing ability that damages the player and affects them with one of <a href="/Vertigo" title="Vertigo">Vertigo</a>, <a href="/Silence" title="Silence">Silence</a>, <a href="/Status_effects#No_Potions" title="Status effects">-Potion</a>, <a href="/Stat_zero" title="Stat zero">Stat drain</a>, rF-, or <a href="/Polymorph" title="Polymorph">polymorph</a> to <a href="/Bat_form" class="mw-redirect" title="Bat form">bat</a>, <a href="/Pig_form" class="mw-redirect" title="Pig form">pig</a>, or <a href="/Wisp_form" class="mw-redirect" title="Wisp form">wisp</a> <a href="/Bad_form" class="mw-redirect" title="Bad form">form</a>.</li>
+<li> Killer Klowns have highly enchanted, branded <a href="/Club" title="Club">clubs</a> instead of the Klown melee flavor, and no longer have <a href="/Category:Regenerates" title="Category:Regenerates">fast regen</a>.</li>
+<li> <a href="/Orb_run" class="mw-redirect" title="Orb run">Orb run</a> spawns are more frequently near the player and more dangerous.</li>
+<li> <a href="/Pandemonium_lord" title="Pandemonium lord">Pandemonium lords</a>' spell sets and attack brands are revealed.</li>
+<li> Monster summons disappear whenever the summoner changes alignment from being charmed/uncharmed, pacified, or slimified.</li>
+<li> <a href="/Confuse" title="Confuse">Confused</a> monsters now get a 1 in 3 chance to move normally, like players do.</li>
+<li> <a href="/Giant" class="mw-redirect" title="Giant">Giant</a> monsters no longer tear through <a href="/Web" title="Web">webs</a>.</li></ul>
+<h2><span class="mw-headline" id="Spells">Spells</span></h2>
+<ul><li> <a href="/Confusing_Touch" title="Confusing Touch">Confusing Touch</a> works with a weapon wielded.</li></ul>
+<h2><span class="mw-headline" id="0.23.1">0.23.1</span></h2>
+<p>The bugfix release of 0.23.1 was released on February 28th, 2019.
+</p>
+<ul><li> <a href="/Vampiric" title="Vampiric">Vampiric</a> attacks by the player against allies created from Sticks to Snakes and the Ratskin Cloak no longer restore HP or give vampires satiation.</li>
+<li> Damage from <a href="/Ozocubu%27s_Refrigeration" title="Ozocubu&#39;s Refrigeration">Ozocubu's Refrigeration</a> has been increased to the correct amount.</li>
+<li> Placement for the uniques <a href="/Aizul" title="Aizul">Aizul</a>, <a href="/Bai_Suzhen" title="Bai Suzhen">Bai Suzhen</a>, <a href="/Donald" title="Donald">Donald</a>, <a href="/Jorgrun" title="Jorgrun">Jorgrun</a>, and <a href="/Mara" title="Mara">Mara</a> has been fixed so they can place throughout their intended level ranges.</li>
+<li> The chance of <a href="/Boris" title="Boris">Boris</a> to respawn has been lowered to match previous rates.</li>
+<li> Yellow <a href="/Draconian" title="Draconian">draconians</a> now correctly receive their rCorr mutation at XL 7.</li>
+<li> 45 bugfixes, adjustments, and cleanups in total.</li></ul>
+
+<!-- 
+NewPP limit report
+Cached time: 20200503035821
+Cache expiry: 86400
+Dynamic content: false
+[SMW] In‐text annotation parser time: 0.001 seconds
+CPU time usage: 0.032 seconds
+Real time usage: 0.033 seconds
+Preprocessor visited node count: 43/1000000
+Preprocessor generated node count: 58/1000000
+Post‐expand include size: 349/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    1.030      1 -total
+100.00%    1.030      1 Template:Oldversion
+-->
+</div>
+<!-- Saved in parser cache with key crawl_wiki-crawl_:pcache:idhash:9900-0!canonical and timestamp 20200503035821 and revision id 51691
+ -->
+</div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="http://crawl.chaosforge.org/index.php?title=0.23&amp;oldid=51691">http://crawl.chaosforge.org/index.php?title=0.23&amp;oldid=51691</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Crawl_Versions" title="Category:Crawl Versions">Crawl Versions</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=0.23" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+														<li id="ca-nstab-main" class="selected"><span><a href="/0.23" title="View the content page [c]" accesskey="c">Page</a></span></li>
+							<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:0.23&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+														<li id="ca-view" class="selected"><span><a href="/0.23">Read</a></span></li>
+							<li id="ca-viewsource"><span><a href="/index.php?title=0.23&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+							<li id="ca-history" class="collapsible"><span><a href="/index.php?title=0.23&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search CrawlWiki" title="Search CrawlWiki [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/Crawl_Wiki"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="/Crawl_Wiki" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li><li id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/0.23" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/0.23" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="/index.php?title=0.23&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="/index.php?title=0.23&amp;oldid=51691" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/index.php?title=0.23&amp;action=info" title="More information about this page">Page information</a></li><li id="t-smwbrowselink"><a href="/Special:Browse/:0.23" rel="smw-browse">Browse properties</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last edited on 19 February 2020, at 12:17.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="/CrawlWiki:Privacy_policy" title="CrawlWiki:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/CrawlWiki:About" title="CrawlWiki:About">About CrawlWiki</a></li>
+											<li id="footer-places-disclaimer"><a href="/CrawlWiki:General_disclaimer" title="CrawlWiki:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/"><img src="/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a><a href="https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki"><img src="/extensions/SemanticMediaWiki/includes/../res/images/smw_button.png" alt="Powered by Semantic MediaWiki" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"smw":{"limitreport-intext-parsertime":0.001},"limitreport":{"cputime":"0.032","walltime":"0.033","ppvisitednodes":{"value":43,"limit":1000000},"ppgeneratednodes":{"value":58,"limit":1000000},"postexpandincludesize":{"value":349,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":2,"limit":40},"expensivefunctioncount":{"value":0,"limit":100},"timingprofile":["100.00%    1.030      1 -total","100.00%    1.030      1 Template:Oldversion"]},"cachereport":{"timestamp":"20200503035821","ttl":86400,"transientcontent":false}}});});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":78});});</script>
+	</body>
+</html>

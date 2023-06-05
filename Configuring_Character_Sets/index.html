@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Configuring Character Sets - CrawlWiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Configuring_Character_Sets","wgTitle":"Configuring Character Sets","wgCurRevisionId":3392,"wgRevisionId":3392,"wgArticleId":1728,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Crawl","Tips"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Configuring_Character_Sets","wgRelevantArticleId":1728,"wgRequestId":"ec439e3c48eb422bbb990f93","wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.smw.style":"ready","ext.smw.tooltip.styles":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.options@0bhc5ha",function($,jQuery,require,module){mw.user.options.set([]);});mw.loader.implement("user.tokens@014qz08",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/
+
+});mw.loader.load(["ext.smw.style","ext.smw.tooltips","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=ext.smw.style%7Cext.smw.tooltip.styles&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.30.0"/>
+<link rel="ExportRDF" type="application/rdf+xml" title="Configuring Character Sets" href="/index.php?title=Special:ExportRDF/Configuring_Character_Sets&amp;xmlmime=rdf"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="CrawlWiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="http://crawl.chaosforge.org/api.php?action=rsd"/>
+<!--[if lt IE 9]><script src="/resources/lib/html5shiv/html5shiv.min.js?40bd4"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Configuring_Character_Sets rootpage-Configuring_Character_Sets skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+		<script type="text/javascript">
+		window.google_analytics_uacct = "UA-3380984-8";
+</script>
+<div class="adsense">
+		<script type="text/javascript"><!--
+		google_ad_client = "ca-pub-7088061744296615";
+		/* CrawlWiki skyscraper */
+		google_ad_slot = "8196155564";
+		google_ad_width = 160;
+		google_ad_height = 600;
+-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+			<a id="top"></a>
+
+						<div class="mw-indicators mw-body-content">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">Configuring Character Sets</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub" class="noprint">From CrawlWiki</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><p>If you're playing in ASCII mode (as opposed to using tiles), Dungeon Crawl has an option called <b>char_set</b> that determines which characters are used to represent walls, doors, and other dungeon features. It also affects how these characters and encoded. Because of the history of character encodings and fonts on computers, making this work properly can be complicated, especially when playing remotely via a terminal program like PuTTY. This article will guide you through the setup process.
+</p>
+<div id="toc" class="toc"><div class="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Why_do_I_care.3F"><span class="tocnumber">1</span> <span class="toctext">Why do I care?</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Choosing_a_Character_Set"><span class="tocnumber">2</span> <span class="toctext">Choosing a Character Set</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Configuring_PuTTY"><span class="tocnumber">3</span> <span class="toctext">Configuring PuTTY</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#For_IBM"><span class="tocnumber">3.1</span> <span class="toctext">For IBM</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#For_Unicode"><span class="tocnumber">3.2</span> <span class="toctext">For Unicode</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#A_Note_About_Fonts"><span class="tocnumber">4</span> <span class="toctext">A Note About Fonts</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Why_do_I_care.3F">Why do I care?</span></h2>
+<p>You might not. It's largely a matter of personal preference. This humble author likes the IBM character set because it makes the walls look like continuous <i>walls</i>, instead of a bunch of waffles hanging around in a line. It also makes shops and gates look different from wands/staves, which can help reduce player mistakes in stressful places, such as the Abyss. The DEC and Unicode character sets are similar.
+</p><p>If you have tried to watch someone play on CAO only to discover that their dungeon has a whole bunch of funny-looking 'u's in it, this guide can help you set up your terminal so you can watch them. You might need to ask the player which character set they are using, so you can use the appropriate settings.
+</p>
+<h2><span class="mw-headline" id="Choosing_a_Character_Set">Choosing a Character Set</span></h2>
+<p>To enable a character set, add a char_set line to your init file. If you are playing online, use the menu to edit your options for the appropriate version of Crawl. <b>options_guide.txt</b> has this to say about the char_set option:
+</p>
+<dl><dd><b>char_set = (ascii | ibm | dec | unicode)</b>
+<dl><dd>Chooses different character sets for the game play screen. DOS and Windows users will want to use the IBM character set, Unix users will prefer DEC or plain ASCII. On Unix, Crawl may be built with Unicode support, in which case you can use char_set = unicode to use unicode characters in the map display.</dd></dl></dd></dl>
+<p>When playing online using PuTTY, the IBM character set works well. If you are playing the DOS console version, Crawl seems to automatically enable IBM graphics for you, so no setup is required.
+</p>
+<h2><span class="mw-headline" id="Configuring_PuTTY">Configuring PuTTY</span></h2>
+<h3><span class="mw-headline" id="For_IBM">For IBM</span></h3>
+<ol><li> In PuTTY's options menu, select Window &gt; Translation.</li>
+<li> Change the "Received data..." drop-down to CP437.</li>
+<li> Under "Handling of line drawing characters," select "Use font in both ANSI and OEM modes."</li>
+<li> (optional) Select Window &gt; Appearance and choose the 9pt Terminal font.</li></ol>
+<h3><span class="mw-headline" id="For_Unicode">For Unicode</span></h3>
+<ol><li> In PuTTY's options menu, select Window &gt; Translation.</li>
+<li> Change the "Received data..." drop-down to UTF-8.</li>
+<li> Under "Handling of line drawing characters," select "Use Unicode line drawing code points."</li>
+<li> Select Window &gt; Appearance and choose Courier New, Lucida Console, or another Unicode font.</li></ol>
+<h2><span class="mw-headline" id="A_Note_About_Fonts">A Note About Fonts</span></h2>
+<p>For your chosen character set to display properly, you need to use a font that contains the appropriate glyphs. The IBM character set requires that the font contain the codepage 437 line drawing characters, also known as the OEM/DOS character set. Some fonts contain accented characters for European languages instead of the line drawing characters. You can determine which fonts work by trial and error, or by examining the fonts in Windows's "Character Map" (charmap) utility. Choose the "Terminal" font in PuTTY (Window &gt; Appearance) to get the same appearance as the local console version of Crawl.
+</p><p>If you decide to try the Unicode character set, you need a font that contains the Unicode line drawing code points. Again, try different fonts until you find one that works, or use charmap to find fonts that contain the necessary glyphs. The Unicode line drawing characters start at code point 2500. Unfortunately, some of the better Unicode fonts provided by Microsoft lack line drawing characters.
+</p>
+<!-- 
+NewPP limit report
+Cached time: 20200216232000
+Cache expiry: 86400
+Dynamic content: false
+[SMW] In‐text annotation parser time: 0.001 seconds
+CPU time usage: 0.008 seconds
+Real time usage: 0.008 seconds
+Preprocessor visited node count: 23/1000000
+Preprocessor generated node count: 28/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 -total
+-->
+</div>
+<!-- Saved in parser cache with key crawl_wiki-crawl_:pcache:idhash:1728-0!canonical and timestamp 20200216232000 and revision id 3392
+ -->
+</div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="http://crawl.chaosforge.org/index.php?title=Configuring_Character_Sets&amp;oldid=3392">http://crawl.chaosforge.org/index.php?title=Configuring_Character_Sets&amp;oldid=3392</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:Crawl" title="Category:Crawl">Crawl</a></li><li><a href="/Category:Tips" title="Category:Tips">Tips</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=Configuring+Character+Sets" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+														<li id="ca-nstab-main" class="selected"><span><a href="/Configuring_Character_Sets" title="View the content page [c]" accesskey="c">Page</a></span></li>
+							<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Configuring_Character_Sets&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+														<li id="ca-view" class="selected"><span><a href="/Configuring_Character_Sets">Read</a></span></li>
+							<li id="ca-viewsource"><span><a href="/index.php?title=Configuring_Character_Sets&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+							<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Configuring_Character_Sets&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search CrawlWiki" title="Search CrawlWiki [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/Crawl_Wiki"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="/Crawl_Wiki" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li><li id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Configuring_Character_Sets" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Configuring_Character_Sets" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="/index.php?title=Configuring_Character_Sets&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="/index.php?title=Configuring_Character_Sets&amp;oldid=3392" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/index.php?title=Configuring_Character_Sets&amp;action=info" title="More information about this page">Page information</a></li><li id="t-smwbrowselink"><a href="/Special:Browse/:Configuring-5FCharacter-5FSets" rel="smw-browse">Browse properties</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last edited on 24 December 2012, at 06:43.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="/CrawlWiki:Privacy_policy" title="CrawlWiki:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/CrawlWiki:About" title="CrawlWiki:About">About CrawlWiki</a></li>
+											<li id="footer-places-disclaimer"><a href="/CrawlWiki:General_disclaimer" title="CrawlWiki:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/"><img src="/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a><a href="https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki"><img src="/extensions/SemanticMediaWiki/includes/../res/images/smw_button.png" alt="Powered by Semantic MediaWiki" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"smw":{"limitreport-intext-parsertime":0.001},"limitreport":{"cputime":"0.008","walltime":"0.008","ppvisitednodes":{"value":23,"limit":1000000},"ppgeneratednodes":{"value":28,"limit":1000000},"postexpandincludesize":{"value":0,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":2,"limit":40},"expensivefunctioncount":{"value":0,"limit":100},"timingprofile":["100.00%    0.000      1 -total"]},"cachereport":{"timestamp":"20200216232000","ttl":86400,"transientcontent":false}}});});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":336});});</script>
+	</body>
+</html>

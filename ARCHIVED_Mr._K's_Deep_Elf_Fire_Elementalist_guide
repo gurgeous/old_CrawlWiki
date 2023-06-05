@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>ARCHIVED Mr. K's Deep Elf Fire Elementalist guide - CrawlWiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"ARCHIVED_Mr._K's_Deep_Elf_Fire_Elementalist_guide","wgTitle":"ARCHIVED Mr. K's Deep Elf Fire Elementalist guide","wgCurRevisionId":42797,"wgRevisionId":42797,"wgArticleId":4239,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Unknown articles","Character guides"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"ARCHIVED_Mr._K's_Deep_Elf_Fire_Elementalist_guide","wgRelevantArticleId":4239,"wgRequestId":"bd6b1fe41aad8b4a50518323","wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.smw.style":"ready","ext.smw.tooltip.styles":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.options@0bhc5ha",function($,jQuery,require,module){mw.user.options.set([]);});mw.loader.implement("user.tokens@014qz08",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/
+
+});mw.loader.load(["ext.smw.style","ext.smw.tooltips","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=ext.smw.style%7Cext.smw.tooltip.styles&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.30.0"/>
+<link rel="ExportRDF" type="application/rdf+xml" title="ARCHIVED Mr. K&#039;s Deep Elf Fire Elementalist guide" href="/index.php?title=Special:ExportRDF/ARCHIVED_Mr._K%27s_Deep_Elf_Fire_Elementalist_guide&amp;xmlmime=rdf"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="CrawlWiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="http://crawl.chaosforge.org/api.php?action=rsd"/>
+<!--[if lt IE 9]><script src="/resources/lib/html5shiv/html5shiv.min.js?40bd4"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-ARCHIVED_Mr_K_s_Deep_Elf_Fire_Elementalist_guide rootpage-ARCHIVED_Mr_K_s_Deep_Elf_Fire_Elementalist_guide skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+		<script type="text/javascript">
+		window.google_analytics_uacct = "UA-3380984-8";
+</script>
+<div class="adsense">
+		<script type="text/javascript"><!--
+		google_ad_client = "ca-pub-7088061744296615";
+		/* CrawlWiki skyscraper */
+		google_ad_slot = "8196155564";
+		google_ad_width = 160;
+		google_ad_height = 600;
+-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+			<a id="top"></a>
+
+						<div class="mw-indicators mw-body-content">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">ARCHIVED Mr. K's Deep Elf Fire Elementalist guide</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub" class="noprint">From CrawlWiki</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div style="border: 1px solid #f90; background-color: #fc6; border-left: 15px solid #f90; margin-bottom: 20px; width: 100%; padding: 4px 10px; line-height: 1.1em; width: auto;"><i><b>Version Unknown</b>: This article may not be up to date for the <a href="/0.24" title="0.24">latest stable release</a> of Crawl.</i></div>
+<div style="border: 1px solid #A522BD; background-color: #E181F3; border-left: 15px solid #A522BD; margin-bottom: 20px; width: 100%; padding: 4px 10px; line-height: 1.1em; width: auto;"><b>This article contains advice from other players, which may be subjective, outdated, inaccurate or ill-advised.</b> Read at your own risk and alter to fit your play style as necessary!</div>
+<p><br />
+<b>THIS ARTICLE WAS WRITTEN FOR AN EARLIER VERSION OF <i>CRAWL</i>, AND IS NO LONGER RELIABLE. TO HAVE IT REMOVED FROM THE ARCHIVES, PLEASE UPDATE IT FOR THE CURRENT VERSION.</b>
+</p>
+<div id="toc" class="toc"><div class="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Overview"><span class="tocnumber">1</span> <span class="toctext">Overview</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Strategy"><span class="tocnumber">2</span> <span class="toctext">Strategy</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Background"><span class="tocnumber">2.1</span> <span class="toctext">Background</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#God_Choice"><span class="tocnumber">2.2</span> <span class="toctext">God Choice</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Early_Game"><span class="tocnumber">2.3</span> <span class="toctext">Early Game</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Mid_Game"><span class="tocnumber">2.4</span> <span class="toctext">Mid Game</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Late_Game"><span class="tocnumber">2.5</span> <span class="toctext">Late Game</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#Skills"><span class="tocnumber">3</span> <span class="toctext">Skills</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Overview">Overview</span></h2>
+<p>The <b>Deep Elf Fire Elementalist</b> is a <a href="/Conjurer" title="Conjurer">conjurer</a> with little resiliency, but possibly the greatest offensive arsenal in all of <i>Dungeon Crawl</i>. Furthermore, the new skill training system, introduced in 0.9, allows you to compensate for weaknesses and enhance strengths more easily, making the character a reliable bet to get to (and clear) the Realm of Zot and even Ziggurats with little opposition.
+</p>
+<ul><li><a href="/Deep_Elf" title="Deep Elf">Deep Elves</a> have the best aptitude for magic in the game. This includes a whopping +4 to Spellcasting and Charms, +3 to Hexes, +2 to Necromancy, and +1 for everything else save for Earth Magic, which is at 0. Not only that, but they gain a lot more MP than average (+3), and get a guaranteed Int increase every 4 levels. You'd be crazy to play them as anything but pure blasters!</li>
+<li>That said, they do have less HP than average (-2), but since 0.9 all races start with a bit more HP, which tones down the early game difficulty slightly. You won't get crushed by your first hobgoblin very often anymore. You'll also have to devote some stat increases to Strength, which starts at 5.</li>
+<li>Moreover, while training the Fighting skill used to be the bane of all spellcasters, the new skill training system allows even Deep Elves, with their bad aptitude (-2), to simply focus Fighting and gain more HP without having to ever swing a weapon. This offsets their greatest late-game weakness, a lack of HP.</li></ul>
+<p>For an example of this character, see this <a href="/Mr._K%27s_DEFE_example" title="Mr. K&#39;s DEFE example">DEFE journal</a>.
+</p>
+<h2><span class="mw-headline" id="Strategy">Strategy</span></h2>
+<p>The overall goal of a Deep Fire Elementalist is to get access to the most powerful <a href="/Conjurations" title="Conjurations">Conjurations</a> as early as possible to overpower their enemies with superior firepower. While defense still matters, never turn off your offensive skills until you've mastered them.
+</p>
+<h3><span class="mw-headline" id="Background">Background</span></h3>
+<p>The Fire Elementalist starts with a <a href="/Book_of_Flames" title="Book of Flames">Book of Flames</a> containing the following spells:
+</p>
+<ul><li><a href="/Flame_Tongue" title="Flame Tongue">Flame Tongue</a>: your basic nuke. Not as good as Magic Dart, but still effective, except versus crimson imps. Stricly an early game spell.</li>
+<li><a href="/Throw_Flame" title="Throw Flame">Throw Flame</a>: long-range fire nuke. You'll use this a lot in the early game and a bit in the mid-game. By late-game, you should forget it.</li>
+<li><a href="/Inner_Flame" title="Inner Flame">Inner Flame</a>: don't bother, when it works it's brilliant, but often it won't. It can also kill you if the enemy happens to blow up too close to you.</li>
+<li><a href="/Conjure_Flame" title="Conjure Flame">Conjure Flame</a>: excellent tactical applications for this single-tile cloud spell. Undead and mindless enemies will happily walk through fire, intelligent monsters will stay away. Can be forgotten in the mid-game once you've learned other cloud spells or Fire Storm.</li>
+<li><a href="/Sticky_Flame" title="Sticky Flame">Sticky Flame</a>: not as good as it once was, due to its reduced range, but never misses and deals damage over time, perfect for some of the enemies prone to flight. Since dangerous enemies who can melee you for huge amounts of damage start creeping up in the mid-game, this spell's usefulness takes a nosedive right about then.</li>
+<li><a href="/Fireball" title="Fireball">Fireball</a>: much better area of damage spell than Inner Flame. This will let you clear the Orcish Mines and the Lair. Upgrade to Delayed Fireball eventually for emergencies, like ghost moths, and keep it throughout the game unless you're desperate for additional offensive spell levels.</li></ul>
+<h3><span class="mw-headline" id="God_Choice">God Choice</span></h3>
+<p><a href="/Vehumet" title="Vehumet">Vehumet</a> is a no-brainer. He guarantees access to the most powerful Conjurations in the game, makes them cheaper, gives them a longer range, and improves your success rate with them. If you've never learned <a href="/Fire_Storm" title="Fire Storm">Fire Storm</a> at level 15, well... it's fun. The MP gain from killing also favors area of damage spells and a large MP pool, which you'll definitely have.
+</p><p>It's also possible to go for <a href="/Sif_Muna" title="Sif Muna">Sif Muna</a>, but the powers are simply not as good. Why get protection from miscasts when you can enhance your success rate to not miscast in the first place? Why train <a href="/Invocations" title="Invocations">Invocations</a> to spend a turn restoring MP when you can do it automatically by killing (sometimes gaining more MP than you just spent!)? Sif Muna's only real advantage is the infinite amount of books she'll provide, which is good late-game for versatility but can screw you over early because of its randomness. Vehumet's guaranteed book gifts are just more reliable, and it's not like you'll never be able to find or buy other books -- especially since you'll quickly be able to tackle the first few floors of a Ziggurat with ease. Also, by the late game, it's nearly guaranteed you'll have found a crystal ball of energy, which with proper Evocations training restores a lot more MP than Sif Muna's channeling, though with some added -- but manageable -- risks.
+</p><p>An alternate choice -- but only a late-game one! -- is <a href="/Kikubaaqudgha" title="Kikubaaqudgha">Kikubaaqudgha</a>. While losing your access to Vehumet's spell-enhancing powers hurts a lot, Kiku offers some advantages, especially once you've received all of Vehumet's books.
+</p>
+<ul><li>Piety is easier to maintain when scumming the Abyss or Pandemonium. Vehumet only cares about destroying living beings and the undead, while Kiku accepts the deaths of living beings and demons, which are plentiful in the late game.</li>
+<li>MP regen via corpse delivery and <a href="/Sublimation_of_Blood" title="Sublimation of Blood">Sublimation of Blood</a>. Not as powerful as Vehumet's MP gain from killing, since it requires extensive preparation and doesn't work depending on the monster types found in the level, but still better than nothing.</li>
+<li>All books of Necromancy gifted as Piety rises. Access to the <a href="/Necronomicon" title="Necronomicon">Necronomicon</a>, in particular, can be game-changing thanks to <a href="/Necromutation" title="Necromutation">Necromutation</a>, <a href="/Haunt" title="Haunt">Haunt</a>, <a href="/Borgnjor%27s_Revivification" title="Borgnjor&#39;s Revivification">Borgnjor's Revivification</a>, and <a href="/Death%27s_Door" title="Death&#39;s Door">Death's Door</a>.</li>
+<li>Protection from death curses, Haunt-induced sickness and torment. This is <i>amazing</i> for clearing the Tomb and mummy-themed Ziggurat floors, among others.</li></ul>
+<p>Do keep in mind that abandoning Vehumet has severe drawbacks. Not only will he visit punishments on you routinely, but your spells's success rates will take a dip and you'll lose the extra range and MP cost reduction. Also, if you're clearing Ziggurats (where gaining Vehumet piety is fine) and have a way of dealing with mummies (such as summons) then Kiku may not be for you.
+</p>
+<h3><span class="mw-headline" id="Early_Game">Early Game</span></h3>
+<p>Kill monsters at range, always rest to fill up MP, and learn all the spells in your initial book (except for Inner Flame) as soon as you can. Finding an altar of Vehumet ASAP is a priority, so save your scrolls and only start reading them when you reach Dungeon level 4: this way, if you read a scroll of magic mapping, you may discover the Temple.
+</p><p>Once you earn Vehumet's second power, the failure rates of all your initial book's spells should drop down to 1%, no matter your skill. At this point focus Spellcasting to get as much MP as possible and to prepare yourself for the next batch of spells you'll learn. By now you should have found the Lair and the Orcish Mines: start by clearing the Lair, using Throw Flame, Fireball spam, and the occasional Sticky Flame. Just be careful not to bite off more than you can chew, and use potions of speed or any other tools at your disposal to escape whenever the situation looks too dangerous. Once you're done with the Lair clear the Orcish Mines for gold and the guaranteed level 4 shops -- a jewellery or book shop is an incredible boost.
+</p><p>Your most annoying enemies in the early game will be:
+</p>
+<ul><li>Crimson imps, which are immune to fire, unless you stumble upon a wand of frost/cold/magic darts to take them out. A wand of polymorph other can work too: they'll turn into another tier 5 demon, most of which are <i>not</i> immune to fire. Failing that, just lure them to the level above, melee them until they blink, then go back down. That'll learn them. A weapon of holy wrath will work in a pinch.</li>
+<li>Centaurs. Their arrows hurt. Try to find a buckler, and don't forget, once you enter the Lair, to focus Fighting and get 3-4 levels for the extra HP.</li></ul>
+<h3><span class="mw-headline" id="Mid_Game">Mid Game</span></h3>
+<p>Vehumet should have started gifting you books by now. The first book is the <a href="/Book_of_Conjurations" title="Book of Conjurations">Book of Conjurations</a>, from which you can learn either <a href="/Lightning_Bolt" title="Lightning Bolt">Lightning Bolt</a> or <a href="/Bolt_of_Cold" title="Bolt of Cold">Bolt of Cold</a>, depending on your preference.
+</p>
+<ul><li><b>Lightning Bolt</b>: lets you start training <a href="/Air_Magic" title="Air Magic">Air Magic</a>. Can hit multiple enemies multiple times. Not very accurate, though, and <i>extremely</i> loud.</li>
+<li><b>Bolt of Cold</b>: harder to cast but does more reliable (and more silent) damage. You can just turn off <a href="/Ice_Magic" title="Ice Magic">Ice Magic</a> to not train it; Vehumet's spell success enhancer and your Conjurations skill should be enough to let you cast it. However, if you're using a Fire Magic enhancer, it won't jive with Bolt of Cold.</li></ul>
+<p><a href="/Freezing_Cloud" title="Freezing Cloud">Freezing Cloud</a> is also an option, depending on your Conjurations and Air Magic skills. Along with Fireball it'll let you deal with pretty much anything you'll encounter.
+</p><p>Vehumet's second book is the <a href="/Book_of_Power" title="Book of Power">Book of Power</a>. Make sure to learn <a href="/Orb_of_Destruction" title="Orb of Destruction">Orb of Destruction</a> (blowing up uniques with a single spell is great!) and, if you feel like it, <a href="/Iskenderun%27s_Mystic_Blast" title="Iskenderun&#39;s Mystic Blast">Iskenderun's Mystic Blast</a>. The latter is cheap, elementally neutral, and can replace Sticky Flame in your arsenal. <a href="/Poisonous_Cloud" title="Poisonous Cloud">Poisonous Cloud</a> is another option, especially if you've still got to tackle most of the Mines, Lair, or Elven Halls by the time you can learn it.
+</p><p>You'll eventually receive the <a href="/Book_of_Annihilations" title="Book of Annihilations">Book of Annihilations</a> from Vehumet. Keep track of your failure rate with Fire Storm, and when it's at ~40%, make an attempt to memorize it. It may take you a couple of tries; keep in mind that if you fail, the book will punish you with a Conjurations miscast, dealing severe damage, so don't do it unless you're at full HP. When you do learn it, focus Conjurations and Fire Magic to decrease your failure rate until it's sub-10%. Congratulations! You're now ready to destroy everything that crosses your path.
+</p><p>Your most annoying enemies in the mid game will be:
+</p>
+<ul><li>Centaur warriors and yaktaurs. See centaurs in the early game. Blow them up good.</li>
+<li>Hubris. Once you acquire the Book of Power, and especially the Book of Annihilations, you'll turn into an engine of destruction... but you're still incredibly fragile. It's important to keep an eye on your MP and remind yourself to take it slow and easy.</li></ul>
+<h3><span class="mw-headline" id="Late_Game">Late Game</span></h3>
+<p>Reduce Fire Storm's hunger cost by whatever means necessary (staff of energy, amulet of the gourmand, items with +Int, focusing Spellcasting) until you can cast it reliably without starving yourself. Then it's simply a matter of casting it to catch as many enemies as possible in its blast radius (to recover as much as MP as possible), waiting for the rest of the level to run over because of the loud noise, and repeating the process until everything within a mile has been cremated.
+</p><p>Your end-game spell arsenal should look a little like this:
+</p>
+<ul><li><a href="/Fire_Storm" title="Fire Storm">Fire Storm</a>: duh.</li>
+<li><a href="/Ring_of_Flames" title="Ring of Flames">Ring of Flames</a>: protection from fire and most sources of cold damage, Fire Magic enhancer.</li>
+<li><a href="/Repel_Missiles" title="Repel Missiles">Repel Missiles</a>/<a href="/Deflect_Missiles" title="Deflect Missiles">Deflect Missiles</a>: for yaktaurs and whatever else decides to take potshots at you.</li>
+<li><a href="/Blink" title="Blink">Blink</a> + <a href="/Control_Teleport" title="Control Teleport">Control Teleport</a>/<a href="/Controlled_Blink" title="Controlled Blink">Controlled Blink</a>: to reposition yourself or escape.</li>
+<li><a href="/Fireball" title="Fireball">Fireball</a>/<a href="/Delayed_Fireball" title="Delayed Fireball">Delayed Fireball</a>: it's a free Fireball, it can let you kill enough enemies to regain MP for that last Fire Storm you need.</li>
+<li><a href="/Abjuration" title="Abjuration">Abjuration</a>/<a href="/Mass_Abjuration" title="Mass Abjuration">Mass Abjuration</a>: Vehumet will also gift you all the <a href="/Summonings" title="Summonings">Summonings</a> books, so take the opportunity to learn them both to counter summoners. Though a Fire Storm to the face also works brilliantly.</li>
+<li><a href="/Orb_of_Destruction" title="Orb of Destruction">Orb of Destruction</a>: still a great spell in the late-game for dealing with monsters that are extremely resistant to Fire, such as golems or bone dragons. You can also use it to dig rock in a pinch.</li>
+<li><a href="/Haste" title="Haste">Haste</a>: nothing much to say about it. It's Haste. Kill stuff faster. Or run away faster.</li>
+<li><a href="/Sublimation_of_Blood" title="Sublimation of Blood">Sublimation of Blood</a>: amazing for emergency MP regeneration. Try to always carry around a few chunks of meat if you can. Otherwise, if you're at full HP, you can use it on yourself, but it'll hurt.</li></ul>
+<p>Many, many more spells deserve to be included in this list; take a look at the <a href="/index.php?title=Conjurer_guide&amp;action=edit&amp;redlink=1" class="new" title="Conjurer guide (page does not exist)">Conjurer guide</a> to learn more.
+</p>
+<h2><span class="mw-headline" id="Skills">Skills</span></h2>
+<p>Other than normal caster-oriented skills, you should consider training...
+</p>
+<ul><li><a href="/Evocations" title="Evocations">Evocations</a>: in the late-game you'll want to use a <a href="/Crystal_ball_of_energy" title="Crystal ball of energy">crystal ball of energy</a> to regen MP. You may also come across powerful rods or legendary decks of cards; both of these will benefit from high Evocations.</li></ul>
+<p>But not training...
+</p>
+<ul><li><a href="/Stealth" title="Stealth">Stealth</a>: by the end game, you'll be slinging raging infernos around routinely, so... turn off Stealth at the start. It won't affect your survival too much, and it'll divert some much-needed XP to other skills (Stealth eats up quite a bit of XP).</li></ul>
+
+<!-- 
+NewPP limit report
+Cached time: 20200217035728
+Cache expiry: 86400
+Dynamic content: false
+[SMW] In‐text annotation parser time: 0.001 seconds
+CPU time usage: 0.048 seconds
+Real time usage: 0.060 seconds
+Preprocessor visited node count: 44/1000000
+Preprocessor generated node count: 89/1000000
+Post‐expand include size: 1024/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 3/40
+Expensive parser function count: 0/100
+Lua time usage: 0.000s
+Lua virtual size: 8.02 MB / 50 MB
+Lua estimated memory usage: 0 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   34.823      1 -total
+ 94.34%   32.851      1 Template:Version
+  4.98%    1.734      1 Template:Advice
+-->
+</div>
+<!-- Saved in parser cache with key crawl_wiki-crawl_:pcache:idhash:4239-0!canonical and timestamp 20200217035728 and revision id 42797
+ -->
+</div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="http://crawl.chaosforge.org/index.php?title=ARCHIVED_Mr._K%27s_Deep_Elf_Fire_Elementalist_guide&amp;oldid=42797">http://crawl.chaosforge.org/index.php?title=ARCHIVED_Mr._K%27s_Deep_Elf_Fire_Elementalist_guide&amp;oldid=42797</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:Unknown_articles" title="Category:Unknown articles">Unknown articles</a></li><li><a href="/Category:Character_guides" title="Category:Character guides">Character guides</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=ARCHIVED+Mr.+K%27s+Deep+Elf+Fire+Elementalist+guide" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+														<li id="ca-nstab-main" class="selected"><span><a href="/ARCHIVED_Mr._K%27s_Deep_Elf_Fire_Elementalist_guide" title="View the content page [c]" accesskey="c">Page</a></span></li>
+							<li id="ca-talk"><span><a href="/Talk:ARCHIVED_Mr._K%27s_Deep_Elf_Fire_Elementalist_guide" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+														<li id="ca-view" class="selected"><span><a href="/ARCHIVED_Mr._K%27s_Deep_Elf_Fire_Elementalist_guide">Read</a></span></li>
+							<li id="ca-viewsource"><span><a href="/index.php?title=ARCHIVED_Mr._K%27s_Deep_Elf_Fire_Elementalist_guide&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+							<li id="ca-history" class="collapsible"><span><a href="/index.php?title=ARCHIVED_Mr._K%27s_Deep_Elf_Fire_Elementalist_guide&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search CrawlWiki" title="Search CrawlWiki [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/Crawl_Wiki"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="/Crawl_Wiki" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li><li id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/ARCHIVED_Mr._K%27s_Deep_Elf_Fire_Elementalist_guide" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/ARCHIVED_Mr._K%27s_Deep_Elf_Fire_Elementalist_guide" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="/index.php?title=ARCHIVED_Mr._K%27s_Deep_Elf_Fire_Elementalist_guide&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="/index.php?title=ARCHIVED_Mr._K%27s_Deep_Elf_Fire_Elementalist_guide&amp;oldid=42797" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/index.php?title=ARCHIVED_Mr._K%27s_Deep_Elf_Fire_Elementalist_guide&amp;action=info" title="More information about this page">Page information</a></li><li id="t-smwbrowselink"><a href="/Special:Browse/:ARCHIVED-5FMr.-5FK%27s-5FDeep-5FElf-5FFire-5FElementalist-5Fguide" rel="smw-browse">Browse properties</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last edited on 16 August 2016, at 06:57.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="/CrawlWiki:Privacy_policy" title="CrawlWiki:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/CrawlWiki:About" title="CrawlWiki:About">About CrawlWiki</a></li>
+											<li id="footer-places-disclaimer"><a href="/CrawlWiki:General_disclaimer" title="CrawlWiki:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/"><img src="/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a><a href="https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki"><img src="/extensions/SemanticMediaWiki/includes/../res/images/smw_button.png" alt="Powered by Semantic MediaWiki" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"smw":{"limitreport-intext-parsertime":0.001},"limitreport":{"cputime":"0.048","walltime":"0.060","ppvisitednodes":{"value":44,"limit":1000000},"ppgeneratednodes":{"value":89,"limit":1000000},"postexpandincludesize":{"value":1024,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":3,"limit":40},"expensivefunctioncount":{"value":0,"limit":100},"timingprofile":["100.00%   34.823      1 -total"," 94.34%   32.851      1 Template:Version","  4.98%    1.734      1 Template:Advice"]},"cachereport":{"timestamp":"20200217035728","ttl":86400,"transientcontent":false}}});});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":269});});</script>
+	</body>
+</html>

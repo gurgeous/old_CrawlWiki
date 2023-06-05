@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>List of spells/parse-spl-data - CrawlWiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"List_of_spells/parse-spl-data","wgTitle":"List of spells/parse-spl-data","wgCurRevisionId":43367,"wgRevisionId":43367,"wgArticleId":4127,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Candidates for Deletion"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"List_of_spells/parse-spl-data","wgRelevantArticleId":4127,"wgRequestId":"bec519a283091f5bc886ca5e","wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.smw.style":"ready","ext.smw.tooltip.styles":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.options@0bhc5ha",function($,jQuery,require,module){mw.user.options.set([]);});mw.loader.implement("user.tokens@014qz08",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/
+
+});mw.loader.load(["ext.smw.style","ext.smw.tooltips","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=ext.smw.style%7Cext.smw.tooltip.styles&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.30.0"/>
+<link rel="ExportRDF" type="application/rdf+xml" title="List of spells/parse-spl-data" href="/index.php?title=Special:ExportRDF/List_of_spells/parse-spl-data&amp;xmlmime=rdf"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="CrawlWiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="http://crawl.chaosforge.org/api.php?action=rsd"/>
+<!--[if lt IE 9]><script src="/resources/lib/html5shiv/html5shiv.min.js?40bd4"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-List_of_spells_parse-spl-data rootpage-List_of_spells_parse-spl-data skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+		<script type="text/javascript">
+		window.google_analytics_uacct = "UA-3380984-8";
+</script>
+<div class="adsense">
+		<script type="text/javascript"><!--
+		google_ad_client = "ca-pub-7088061744296615";
+		/* CrawlWiki skyscraper */
+		google_ad_slot = "8196155564";
+		google_ad_width = 160;
+		google_ad_height = 600;
+-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+			<a id="top"></a>
+
+						<div class="mw-indicators mw-body-content">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">List of spells/parse-spl-data</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub" class="noprint">From CrawlWiki</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><center><div style="width: 90%; border: solid 3px black; background-color: red; text-align: left; padding: 1em;">
+<p>A user has suggested the <b>deletion of this page</b>. Reason: No longer used
+</p>
+</div></center>
+<pre>
+
+#! /usr/bin/perl -w
+# parse-spl-data, by http://crawl.chaosforge.org/index.php?title=User:Neil
+# Copyright (C) 2011.  No rights reserved.
+#
+# You may use, distribute, modify, study, fold, spindle, or mutilate this
+# software as you see fit, but know that there is NO WARRANTY, EXPRESS
+# OR IMPLIED (to the extent permitted by law).
+#
+# The latest version of this program may be found at:
+#  http://crawl.chaosforge.org/List_of_spells/parse-spl-data
+
+use strict;
+use Getopt::Long qw(:config gnu_getopt);
+
+our ($PROGNAME, $DATE, $CRAWL_VERSION);
+our $VERSION = "0.1.0";
+
+
+sub crawl_version {
+        my ($indir) = @_;
+	# Look for util/release_ver first
+	if (open VERSION, "&lt;", "${indir}util/release_ver") {
+		my $ver = &lt;VERSION&gt;;
+		chomp $ver;
+		close VERSION;
+		return $ver;
+	}
+	# TODO: maybe try running git
+	return "&lt;unknown&gt;";
+}
+
+# Translate a range into something friendlier for display.  -1 (no range)
+# becomes the empty string, while "LOS_RADIUS" becomes just LOS.
+# TORNADO_RADIUS becomes 5 (its value), but maybe we should use "Tornado"
+# instead.
+sub xlate_range {
+	my $range = shift;
+	return "LOS" if $range eq "LOS_RADIUS";
+	return 6 if $range eq "TORNADO_RADIUS";
+	return "" if $range eq "-1";
+	return $range;
+}
+
+# Wiki-format a list of spell schools, linking to the corresponding
+# magic skill.
+sub format_schools {
+	join "/", map {
+		my $school = ucfirst(lc $_);
+
+		# Convert school names to skill names for linking
+		my $skill = $school;
+		if ($school =~ /^(Poison|Air|Fire|Ice|Earth)$/) {
+			$skill = "$school Magic";
+		} elsif ($school&#160;!~ /[ys]$/) {
+			# "Necromancy" isn't pluralised as a skill,
+			# and "Hexes" and "Charms" are already
+			# pluralized as a magic school.  The others
+			# are singular as a school, plural as a skill.
+			$skill = "${school}s";
+		}
+
+		$skill eq $school&#160;? "[[$school]]"&#160;: "[[$skill|$school]]";
+	} @_;
+}
+
+sub ucfirst_array {
+    my $items = join ",", map {
+        my $name = ucfirst(lc $_);
+        "\"$name\"";
+    } @_;
+    "{ $items }";
+}
+
+# Add a spell if it exists
+sub maybe_add_spell {
+	my ($spell, $by_id, $by_key, $sortkey) = @_;
+	return undef unless $spell-&gt;{name};
+
+	# Ignore spells that do not occur in any book
+	return "" unless scalar @{$spell-&gt;{books}};
+	# ..and NO_SPELL, which "occurs" in books but not really.
+	return "" if $spell-&gt;{id} eq "NO_SPELL";
+
+	# Sanity checks: abort if we encounter one of these, as it means
+	# something funny is up with our book-parsing.
+
+	# Spells that belong to certain monster-only schools.
+	for my $school (@{$spell-&gt;{schools}}) {
+		die "SPTYP_NONE for $spell-&gt;{name}" if $school eq "NONE";
+	}
+	# Spells that don't belong to a school at all, even SPTYP_NONE.
+	die "No school for $spell-&gt;{name}" unless scalar @{$spell-&gt;{schools}};
+
+	# Monster and testing spells.
+	for my $flag (@{$spell-&gt;{flags}}) {
+		die "Monster spell $spell-&gt;{name}" if $flag eq "MONSTER";
+		die "Testing spell $spell-&gt;{name}" if $flag eq "TESTING";
+	}
+
+	# It's worth keeping.
+	$by_id-&gt;{$spell-&gt;{id}} = $spell;
+        if ($sortkey eq "alpha") {
+                $by_key-&gt;{$spell-&gt;{name}} = $spell;
+        } elsif ($sortkey eq "letter") {
+                my $let = uc(substr $spell-&gt;{name}, 0, 1);
+                push @{$by_key-&gt;{$let}}, $spell;
+        } elsif ($sortkey eq "level") {
+                push @{$by_key-&gt;{$spell-&gt;{level}}}, $spell;
+        } elsif ($sortkey eq "school") {
+                for my $school (@{$spell-&gt;{schools}}) {
+                        push @{$by_key-&gt;{$school}}, $spell;
+                }
+        } elsif ($sortkey eq "flag") {
+                for my $flag (@{$spell-&gt;{flags}}) {
+                        push @{$by_key-&gt;{$flag}}, $spell;
+                }
+        }
+	return 1;
+}
+
+# Sorting functions
+sub sort_by_name {
+	$a-&gt;{name} cmp $b-&gt;{name}
+}
+
+sub sort_by_level {
+	$a-&gt;{level} &lt;=&gt; $b-&gt;{level} or sort_by_name
+}
+
+sub sort_by_school {
+	# A Schwartzian transform would be more efficient, but we have
+	# few enough spells that it's not necessary.
+	join("/", @{$a-&gt;{schools}}) cmp join("/", @{$b-&gt;{schools}})
+		or sort_by_name
+}
+
+### MAIN
+
+
+sub main {
+        # Input directory.
+        my $indir = "./";
+
+        # Map from letter, school, flag, book name, or level to list of spells.
+        my&#160;%by_key = ();
+        my&#160;%by_letter = ();
+        my&#160;%by_school = ();
+        my&#160;%by_flag = ();
+        my&#160;%by_book = ();
+        my&#160;%by_level = ();
+
+        # Map from ID or name to spell
+        my&#160;%by_id = ();
+        my&#160;%by_name = ();
+
+        # Map from spell name to list of book names.
+        my&#160;%book_spells = ();
+
+
+
+        my $sortkey = "alpha";
+        my $sortfn = \&amp;sort_by_name;
+        my $module = "default";
+
+        GetOptions(
+                   "a|alphabetic" =&gt; sub { $sortkey = "letter"; $sortfn = \&amp;sort_by_name; },
+                   "b|book" =&gt; sub { $sortkey = "book"; $sortfn = undef; },
+                   "f|flag" =&gt; sub { $sortkey = "flag"; $sortfn = \&amp;sort_by_level; },
+                   "l|level" =&gt; sub { $sortkey = "level"; $sortfn = \&amp;sort_by_school; },
+                   "s|school" =&gt; sub { $sortkey = "school"; $sortfn = \&amp;sort_by_level; },
+                   "m|module-book" =&gt; sub { $module = "book"; $sortkey = "book"&#160;; $sortfn = undef; },
+                   "k|module-spell" =&gt; sub { $module = "spell"; $sortkey = "letter"; $sortfn = \&amp;sort_by_name; },
+                   "h|help" =&gt; sub {
+                           print &lt;&lt;"EOF";
+Usage: $0 [options] [directory]
+
+Produce a wiki table of DCSS spells.  The specified directory should contain
+spl-data.h an book-data.h.  If omitted, the current directory is used.
+
+Options include:
+  -a, --alphabetic    Arrange alphabetically (default).
+  -b, --book          Arrange by book, then level.
+  -f, --flag          Arrange by flag, then level.
+  -k, --module-spell  Generate a Lua table of spells.
+  -l, --level         Arrange by level, then schools.
+  -m, --module-book   Generate a Lua table of spellbooks.
+  -s, --school        Arrange by school, then level.
+  -h, --help          Display this help.
+
+Spells of the same schools and level are sorted by name.  With the --book,
+--school, and --flag option, spells may appear multiple times.
+EOF
+                           exit 0;
+                   },
+                  );
+
+        if (@ARGV) {
+                $indir = shift @ARGV;
+                $indir .= "/" unless $indir eq "" or $indir =~ m!/$!;
+        }
+
+        $DATE = gmtime;
+        $CRAWL_VERSION = crawl_version($indir);
+        ($PROGNAME = $0) =~ s!.*/!!;
+
+        parse_book_data($indir, \%book_spells, \%by_book);
+        parse_spl_data($indir, \%book_spells, \%by_id, \%by_key, $sortkey);
+        for my $k (keys&#160;%by_book) {
+                # Convert the list of spell ids to a list of spells, but
+                # remove those that aren't in&#160;%by_id because maybe_add_spell
+                # skipped them.
+                my @spells =  map { $by_id{$_} || () } @{$by_book{$k}};
+                if (@spells) {
+                        $by_book{$k} = \@spells;
+                } else {
+                        # Remove the book if it has no spells.
+                        delete $by_book{$k};
+                }
+        }
+
+        # Print data
+        if ($module eq "default") {
+                if ($sortkey eq "book") {
+                        module_default($sortkey, $sortfn, \%by_book);
+                } else {
+                        module_default($sortkey, $sortfn, \%by_key);
+                }
+        } elsif ($module eq "book") {
+                module_book(\%by_book);
+        } elsif ($module eq "spell") {
+                module_spell($sortfn, \%by_key);
+        }
+}
+
+sub parse_book_data {
+        my ($indir, $book_spells, $by_book) = @_;
+        # Name of current book.
+        my $book = "bug"&#160;;
+        open BOOKS, "${indir}book-data.h"
+          or die "could not open ${indir}book-data.h: $!";
+        while (&lt;BOOKS&gt;) {
+                # Skip conditional sections.  Really we need to look at
+                # the condition, but that requires the C preprocessor and
+                # I'd rather avoid that.
+
+                #next if /^#if/../^#endif/;
+                next if /^#if TAG_MAJOR_VERSION == 34/../^#endif/;
+
+                # Kind of hackish --- quit at the first rod
+                last if m!// Rod!;
+
+                if (m!^{\s*// (.*)!) {
+                        # Get the spell name from the comment.
+                        $book = $1;
+                        # Disambiguation for Conjuration
+                        my $extra = "";
+
+                        # Remove parenthesized bits
+                        $book =~ s/\s+\([^)]*\)//g;
+
+                        # Remove extra description
+                        if ($book =~ s/ - (.*)//) {
+                                # But remember it for Conjuration
+                                if ($1 =~ /Fire and Earth/) {
+                                        $extra = " (fire+earth)";
+                                } elsif ($1 =~ /Air and Ice/) {
+                                        $extra = " (ice+air)";
+                                }
+                        }
+
+                        # Remove roman numeral counter
+                        $book =~ s/\s+[IVX]+$//;
+
+                        # Replace "Tome of" with "Book of" (special case for Dragon)
+                        $book =~ s/^Tome of/Book of/;
+
+                        # And special-case Minor Magic.
+                        $book =~ s/^Minor/Book of Minor/;
+
+                        # Append disambiguation
+                        $book .= $extra;
+                } else {
+                        while (/SPELL_(\w+)/g) {
+                                push @{$book_spells-&gt;{$1}}, $book;
+                                push @{$by_book-&gt;{$book}}, $1;
+                        }
+                }
+        }
+        close BOOKS;
+}
+
+sub parse_spl_data {
+        # Current spell.  Members are
+        #   {name}   &#160;: Spell name
+        #   {id}     &#160;: SPELL_* identifier (without the SPELL_)
+        #   {schools}&#160;: List of SPTYP_* constants (without the SPTYP_)
+        #   {flags}  &#160;: List of SPFLAG_* constants (without the SPFLAG_)
+        #   {books}  &#160;: List of book names.
+        #   {level}  &#160;: Level
+        #   {cap}    &#160;: Power cap
+        #   {minrange}: Minimum range, or "LOS" or ""
+        #   {maxrange}: Maximum range, or "LOS" or ""
+        #   {noisy}  &#160;: Noise modifier
+        #
+        #   {data}   &#160;: List of extra data; converted to {level}-{noise} at the end
+        #               of the spell block.
+        my ($indir, $book_spells, $by_id, $by_key, $sortkey) = @_;
+        my $spell = {};
+        open SPELLS, "${indir}spl-data.h"
+          or die "could not open ${indir}spl-data.h: $!";
+        while (&lt;SPELLS&gt;) {
+                chomp;
+                if (/^{/) {
+                        $spell = {};
+                } elsif (/^}/) {
+                        # Unpack data
+                        my (
+                            $sch, $flag, $lev, $cap, $minr, $maxr, $nm, @rest
+                           ) = @{$spell-&gt;{data}};
+
+                        # Parse out schools and flags
+                        $spell-&gt;{schools} = [
+                                             map { s/SPTYP_//; $_ } split /\s*\|\s*/, $sch
+                                            ];
+                        $spell-&gt;{flags} = [
+                                           map { s/SPFLAG_//; $_ } split /\s*\|\s*/, $flag
+                                          ];
+
+                        # Include the rest of the data
+                        $spell-&gt;{level} = $lev;
+                        $spell-&gt;{cap} = $cap;
+                        $spell-&gt;{minrange} = xlate_range $minr;
+                        $spell-&gt;{maxrange} = xlate_range $maxr;
+                        $spell-&gt;{noisy} = $nm;
+
+                        maybe_add_spell($spell, $by_id, $by_key, $sortkey);
+                } elsif (/^\s*SPELL_(\w+),\s+"([^"]*)",/) {
+                        $spell-&gt;{id} = $1;
+                        $spell-&gt;{name} = $2;
+                        if (exists $book_spells-&gt;{$1}) {
+                                $spell-&gt;{books} = [ @{$book_spells-&gt;{$1}} ];
+                        } else {
+                                $spell-&gt;{books} = [];
+                        }
+                } else {
+                        # Strip comments first.
+                        s!\s*//.*!!;
+                        # Get comma-delimited sections
+                        while (/\s*([^,]+)(,|$)/g) {
+                                if (substr($1, 0, 1) eq "|") {
+				# Continuation line; really we should check
+				# whether the previous line ended with a
+				# comma, but this is probably good enough.
+                                        $spell-&gt;{data}[-1] .= $1
+                                } else {
+                                        push @{$spell-&gt;{data}}, $1;
+                                }
+                        }
+
+                }
+        }
+        close SPELLS;
+}
+
+
+sub module_default {
+        my ($sortkey, $sortfn, $by_key) = @_;
+        # Descriptions of spell flags
+        my&#160;%flag_descs = (
+                          ALLOW_SELF =&gt; &lt;&lt;"EOF",
+The spell is not helpful, but you will not receive a "Really target yourself?"
+prompt.  You may still receive "That beam is likely to hit you." for
+"[[#Dir or target|dir or target]]" spells such as Mephitic Cloud.
+EOF
+                          AREA =&gt; &lt;&lt;"EOF",
+The spell harms an area.  Pacified fleeing monsters will not use emergency
+spells with this flag.
+EOF
+                          BATTLE =&gt; &lt;&lt;"EOF",
+The spell is a non-[[Conjuration]] spell disliked by [[Elyvilon]].  There is no
+piety penalty for using such spells, but a randart spellbook containing one of
+these spells will never have Elyvilon's name on it.
+EOF
+                          CHAOTIC =&gt; &lt;&lt;"EOF",
+The spell is hated by [[Zin]], who will impose penance on any player casting
+it, and reward killing monsters who can cast it.
+EOF
+                          CORPSE_VIOLATING =&gt; &lt;&lt;"EOF",
+The spell is hated by [[Fedhas Madash]], who will impose penance on any player
+casting it.
+EOF
+                          DIR =&gt; &lt;&lt;"EOF",
+The spell requires choosing a direction (and not a target).
+EOF
+                          DIR_OR_TARGET =&gt; &lt;&lt;"EOF",
+The spell requires choosing a direction or target, and is stopped by
+interposing creatures.
+EOF
+                          ESCAPE =&gt; &lt;&lt;"EOF",
+The spell helps you get out of trouble.  Xom considers such spells boring, and
+will not gift spellbooks containing them.  Furthermore, the spell is an option
+when control-clicking yourself in tiles mode.
+EOF
+                          GRID =&gt; &lt;&lt;"EOF",
+The spell targets a grid square, disregarding any creatures in the way.  This
+is a form of smite targeting that does not require a target.
+EOF
+                          HASTY =&gt; &lt;&lt;"EOF",
+The spell is hated by [[Cheibriados]], who will impose penance on any player
+casting it.
+EOF
+                          HELPFUL =&gt; &lt;&lt;"EOF",
+The spell helps you or the target; if targeted, the targeting commands
+cycle through friendlies rather than hostiles.  Xom considers such spells
+boring, and will not gift spellbooks containing them.
+EOF
+                          NEUTRAL =&gt; &lt;&lt;"EOF",
+The spell is neither harmful nor helpful; if targeted, the targeting
+commands cycle through all creatures, not just hostiles.  Xom considers
+such spells boring, and will not gift spellbooks containing them.
+EOF
+                          NONE =&gt; &lt;&lt;"EOF",
+The spell has no special flags.  Such spells are always untargeted.
+EOF
+                          NOT_SELF =&gt; &lt;&lt;"EOF",
+The spell may not target you or your square.
+EOF
+                          RECOVERY =&gt; &lt;&lt;"EOF",
+The spell helps you recover from ill effects.  Xom considers such spells
+boring, and will not gift spellbooks containing them.  Furthermore, the spell
+is an option when control-clicking yourself in tiles mode.
+EOF
+                          TARGET =&gt; &lt;&lt;"EOF",
+The spell targets a creature, disregarding any other creatures in the way.
+This is a form of smite targeting that requires a target creature.
+EOF
+                          TARG_OBJ =&gt; &lt;&lt;"EOF",
+The spell targets an object, disregarding any other creatures in the way.
+This is a form of smite targeting that requires a target object.
+EOF
+                          UNCLEAN =&gt; &lt;&lt;"EOF",
+The spell is hated by [[Zin]], who will impose penance on any player casting
+it, and reward killing monsters who can cast it.
+EOF
+                          UNHOLY =&gt; &lt;&lt;"EOF",
+The spell is a non-necromantic unholy spell.  It is hated by [[good]] gods
+([[Elyvilon]], [[The Shining One]], and [[Zin]]), who will impose penance on
+any player casting it.
+EOF
+                         );
+        print &lt;&lt;"EOF";
+==Spells== &lt;!-- We *must* have a heading before the table, or the TOC will end up inside the table! --&gt;
+
+&lt;!-- Automatically generated by $PROGNAME $VERSION
+     from Dungeon Crawl Stone Soup version $CRAWL_VERSION
+  --&gt;
+{| class="prettytable"
+!rowspan=2|Image
+!rowspan=2|Name
+!rowspan=2|Schools
+!rowspan=2|Level
+!rowspan=2|Power&lt;br&gt;cap
+! colspan=2 |Range
+!rowspan=2|Flags
+!rowspan=2|Books
+|----
+!min
+!max
+EOF
+
+        # TODO: allow sorting by other criteria
+        for my $key (sort keys&#160;%{$by_key}) {
+                my @spells = @{$by_key-&gt;{$key}};
+                @spells = sort $sortfn @spells if $sortfn;
+
+                print "|----\n! colspan=9 style=\"text-align:left\"|\n====";
+
+                # Format and link the key appropriately
+                if ($sortkey eq "book") {
+                        print "[[$key]]";
+                } elsif ($sortkey eq "school") {
+                        print format_schools $key;
+                } elsif ($sortkey eq "level") {
+                        print "level $key";
+                } elsif ($sortkey eq "flag") {
+                        my $fl = ucfirst lc $key;
+                        $fl =~ s/_/ /g;
+                        print $fl;
+                } else {
+                        print $key;
+                }
+                print "====\n";
+                if ($sortkey eq "flag") {
+                        my $desc = $flag_descs{$key};
+                        if ($desc) {
+                                $desc =~ s/\n/ /g;
+                                print "|----\n| colspan=9|$desc\n";
+                        }
+                }
+                for my $spell (@spells) {
+                        # Format schools and flags
+                        my $schools = format_schools @{$spell-&gt;{schools}};
+
+                        my $flags = join ", ", map {
+                                s/_/ /g; lc $_
+                        } @{$spell-&gt;{flags}}, ($spell-&gt;{noisy}&#160;? "noise $spell-&gt;{noisy}"&#160;: ());
+                        my $books = join "&lt;br&gt;", map { "[[$_]]" } @{$spell-&gt;{books}};
+
+
+                        print &lt;&lt;"EOF";
+|----
+|[[File:{{lc:$spell-&gt;{name}.png}}]]
+|style="padding-left:1em"|[[$spell-&gt;{name}]]
+|$schools
+|$spell-&gt;{level}
+|$spell-&gt;{cap}
+|$spell-&gt;{minrange}
+|$spell-&gt;{maxrange}
+|$flags
+|$books
+EOF
+                }
+        }
+
+        print &lt;&lt;"EOF";
+|----
+|}
+EOF
+
+}
+
+
+sub module_book {
+        my ($by_book) = @_;
+    print &lt;&lt;"EOF";
+--[=[
+     Table of spellbooks
+ ]=]--
+
+local m = {}
+EOF
+
+    my @letters = qw(a b c d e f g);
+    my $i = 0;
+    for my $key (sort keys&#160;%$by_book) {
+        print "m[\"$key\"] = {\n";
+        my @spells = @{$by_book-&gt;{$key}};
+        $i = 0;
+        for my $spell (@spells) {
+            my $schools = format_schools @{$spell-&gt;{schools}};
+            print "  {\n";
+            print "    [\"letter\"] = \"$letters[$i++]\", \n";
+            print "    [\"name\"] = \"$spell-&gt;{name}\", \n";
+	    my $lc_name = lc($spell-&gt;{name});
+            print "    [\"image\"] = \"[[File:${lc_name}.png]]\", \n";
+            print "    [\"level\"] = \"$spell-&gt;{level}\", \n";
+            print "    [\"schools\"] = \"$schools\", \n";
+            print "  },\n";
+        }
+        print "}\n"
+    }
+    print "return m\n";
+}
+
+sub module_spell {
+        my ($sortfn, $by_letter) = @_;
+        # Table of spells
+        print &lt;&lt;"EOF";
+--[=[
+     Table of spells
+ ]=]--
+
+local m = {}
+EOF
+
+        for my $key (sort keys&#160;%$by_letter) {
+            my @spells = @{$by_letter-&gt;{$key}};
+            @spells = sort $sortfn @spells if $sortfn;
+            for my $spell (@spells) {
+                my $schools = ucfirst_array @{$spell-&gt;{schools}};
+                my $flags = ucfirst_array @{$spell-&gt;{flags}};
+                $flags =~ s/_/ /g;
+                $flags =~ s/Mr check/MR check/; # special case
+                $flags =~ s/^{ \"None\" }$/nil/; # special case
+                my $books = join ",", map { "\"$_\"" } @{$spell-&gt;{books}};
+                my $range;
+                if ($spell-&gt;{minrange} eq "") {
+                    $range = "nil";
+                } elsif ($spell-&gt;{minrange} eq "LOS") {
+                    $range = "\"LOS\"";
+                } elsif ($spell-&gt;{minrange} eq $spell-&gt;{maxrange}) {
+                    $range = $spell-&gt;{minrange};
+                } else {
+                    $range = "{$spell-&gt;{minrange}, $spell-&gt;{maxrange}}";
+                }
+                print "m[\"$spell-&gt;{name}\"] = {\n";
+                print "    [\"schools\"] = $schools, \n";
+                print "    [\"flags\"] = $flags, \n";
+                print "    [\"books\"] = { $books }, \n";
+                print "    [\"level\"] = $spell-&gt;{level}, \n";
+                print "    [\"cap\"] = $spell-&gt;{cap}, \n";
+                print "    [\"range\"] = $range, \n";
+                print "    [\"noise\"] = $spell-&gt;{noisy}, \n";
+                print "}\n";
+            }
+        }
+        print "return m\n";
+}
+
+main;
+
+
+</pre>
+
+<!-- 
+NewPP limit report
+Cached time: 20200303111958
+Cache expiry: 86400
+Dynamic content: false
+[SMW] In‐text annotation parser time: 0 seconds
+CPU time usage: 0.012 seconds
+Real time usage: 0.010 seconds
+Preprocessor visited node count: 9/1000000
+Preprocessor generated node count: 63/1000000
+Post‐expand include size: 245/2097152 bytes
+Template argument size: 14/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    1.553      1 -total
+100.00%    1.553      1 Template:Delete
+-->
+</div>
+<!-- Saved in parser cache with key crawl_wiki-crawl_:pcache:idhash:4127-0!canonical and timestamp 20200303111958 and revision id 43367
+ -->
+</div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="http://crawl.chaosforge.org/index.php?title=List_of_spells/parse-spl-data&amp;oldid=43367">http://crawl.chaosforge.org/index.php?title=List_of_spells/parse-spl-data&amp;oldid=43367</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Candidates_for_Deletion" title="Category:Candidates for Deletion">Candidates for Deletion</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=List+of+spells%2Fparse-spl-data" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+														<li id="ca-nstab-main" class="selected"><span><a href="/List_of_spells/parse-spl-data" title="View the content page [c]" accesskey="c">Page</a></span></li>
+							<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:List_of_spells/parse-spl-data&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+														<li id="ca-view" class="selected"><span><a href="/List_of_spells/parse-spl-data">Read</a></span></li>
+							<li id="ca-viewsource"><span><a href="/index.php?title=List_of_spells/parse-spl-data&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+							<li id="ca-history" class="collapsible"><span><a href="/index.php?title=List_of_spells/parse-spl-data&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search CrawlWiki" title="Search CrawlWiki [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/Crawl_Wiki"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="/Crawl_Wiki" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li><li id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/List_of_spells/parse-spl-data" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/List_of_spells/parse-spl-data" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="/index.php?title=List_of_spells/parse-spl-data&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="/index.php?title=List_of_spells/parse-spl-data&amp;oldid=43367" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/index.php?title=List_of_spells/parse-spl-data&amp;action=info" title="More information about this page">Page information</a></li><li id="t-smwbrowselink"><a href="/Special:Browse/:List-5Fof-5Fspells-2Fparse-2Dspl-2Ddata" rel="smw-browse">Browse properties</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last edited on 3 November 2016, at 11:31.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="/CrawlWiki:Privacy_policy" title="CrawlWiki:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/CrawlWiki:About" title="CrawlWiki:About">About CrawlWiki</a></li>
+											<li id="footer-places-disclaimer"><a href="/CrawlWiki:General_disclaimer" title="CrawlWiki:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/"><img src="/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a><a href="https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki"><img src="/extensions/SemanticMediaWiki/includes/../res/images/smw_button.png" alt="Powered by Semantic MediaWiki" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"smw":{"limitreport-intext-parsertime":0},"limitreport":{"cputime":"0.012","walltime":"0.010","ppvisitednodes":{"value":9,"limit":1000000},"ppgeneratednodes":{"value":63,"limit":1000000},"postexpandincludesize":{"value":245,"limit":2097152},"templateargumentsize":{"value":14,"limit":2097152},"expansiondepth":{"value":2,"limit":40},"expensivefunctioncount":{"value":0,"limit":100},"timingprofile":["100.00%    1.553      1 -total","100.00%    1.553      1 Template:Delete"]},"cachereport":{"timestamp":"20200303111958","ttl":86400,"transientcontent":false}}});});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":231});});</script>
+	</body>
+</html>
